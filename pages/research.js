@@ -1,9 +1,12 @@
 import React from 'react'
 import Layout from "../components/layout/Layout";
+import NavbarPages from '../components/navigation/NavbarPages';
+
 
 export default function research() {
   return (
     <Layout title = 'Research' metaContent ='Bienvenue sur ma page web, Je suis Essoham ALI, Ph.D. in Mathematics Applied' >
+      <NavbarPages />
       <div className='my-28'>
         <h1 className='uppercase text-center font-black underline text-3xl text-amber-700'>
           Research

@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import React from 'react'
 import Layout from "../components/layout/Layout";
+import NavbarPages from '../components/navigation/NavbarPages';
 
 export default function publications() {
   return (
     <Layout title = 'Publications' metaContent ='Bienvenue sur ma page web, Je suis Essoham ALI, Ph.D. in Mathematics Applied' >
+      <NavbarPages/>
       <div className='my-16'>
         <h1 className='uppercase text-center font-black underline text-3xl text-amber-700 pb-16'>
           Publications

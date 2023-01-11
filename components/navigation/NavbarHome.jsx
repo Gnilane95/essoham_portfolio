@@ -3,7 +3,7 @@ import Typical from 'react-typical'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiFillTwitterSquare} from 'react-icons/ai'
 
-export default function Navbar() {
+export default function NavbarHome() {
   return (
     <div className="">
         <div className="bg-[url('../public/assets/bg.jpg')] h-[82%] w-full px-56 pb-36 relative text-white ">

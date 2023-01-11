@@ -1,14 +1,16 @@
 import React from 'react'
 import Layout from "../components/layout/Layout";
+import NavbarPages from '../components/navigation/NavbarPages';
 
 export default function teaching() {
   return (
     <Layout title = 'Teaching' metaContent ='Bienvenue sur ma page web, Je suis Essoham ALI, Ph.D. in Mathematics Applied' >
-      <div className='my-16'>
+      <NavbarPages/>
+      <div className='my-16 mx-36'>
         <h1 className='uppercase text-center font-black underline text-3xl text-amber-700'>
           Teaching
         </h1>
-        <div className='grid grid-cols-2 mx-20 gap-7'>
+        <div className='mx-20'>
           <div className='shadow-lg p-7 rounded-lg mt-16'>
             <span className='btn bg-slate-800 hover:bg-amber-700 cursor-none border-none'>2022-2023</span>
             <span className='btn bg-slate-800 hover:bg-amber-700 cursor-none border-none ml-5'>Université Bretagne Sud (UBS)</span>
