@@ -29,7 +29,8 @@ export default function NavbarHome() {
               </Link>
             </div>
           </nav>
-          <hero className="mt-36">
+          {/* hero */}
+          <div className="">
             <div className="lg:flex lg:justify-between lg:space-x-7 lg:items-center pt-10">
               <div className="flex flex-col items-center">
                 {/* img for sm */}
@@ -69,8 +70,8 @@ export default function NavbarHome() {
                 <img src="../assets/essoham.jpg" alt="" className='lg:rounded-full lg:h-64 lg:w-64'/>
               </div>
             </div>
-          </hero>
-          <img src="../assets/shape-bg.png" alt="" className='absolute bottom-0 z-50 lg:h-32 w-screen left-0'/>
+          </div>
+          <img src="../assets/shape-bg.png" alt="" className='absolute bottom-0 z-50 lg:h-32 w-screen left-0 shadow-md'/>
         </div>
     </div>
   )

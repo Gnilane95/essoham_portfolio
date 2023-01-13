@@ -4,6 +4,32 @@ import NavbarPages from '../components/navigation/NavbarPages';
 
 
 export default function research() {
+  const supervisings = [
+    {
+      name : 'Ibrahim LAWANI',
+      year : '2021',
+      location : 'UGB Saint-Louis, Sénégal.',
+      co_supervisor : 'Aliou DIOP (UGB)',
+      title : 'Comparison between the Poisson inflation model and the hurdle model for the modeling of count data',
+      id : 1,
+    },
+    {
+      name : 'Gnon Siya AGNONDJI',
+      year : '2021',
+      location : 'UGB Saint-Louis, Sénégal.',
+      co_supervisor : 'Aliou DIOP (UGB)',
+      title : 'Poisson-Gamma regression model with zero inflation and applications',
+      id : 2,
+    },
+    {
+      name : 'Maël QUATREVAUX',
+      year : '2021',
+      location : 'UBS Vannes, France.',
+      co_supervisor : 'Aurélien RAGOT (Micropole Nord Ouest)',
+      title : 'Internship Consultant Buisines Intelligence',
+      id : 3,
+    },
+  ]
   return (
     <Layout title = 'Research' metaContent ='Bienvenue sur ma page web, Je suis Essoham ALI, Ph.D. in Mathematics Applied' >
       <NavbarPages />
@@ -66,45 +92,23 @@ export default function research() {
           <div className=''>
             <h3 className='text-center sm:text-xl lg:text-xl md:text-2xl underline'>Master students :</h3>
             <div className='xl:grid xl:grid-cols-3 lg:grid lg:grid-cols-2 gap-7 xl:mx-44 sm:px-10 md:px-24 lg:mx-20 sm:flex sm:flex-col sm:space-y-3 md:space-y-7 lg:space-y-0 mt-10'>
-              <div className='shadow-md shadow-amber-600 lg:p-7 sm:p-4 rounded-xl sm:text-base md:text-xl lg:text-base'>
-                <p className='font-black pb-2'>Ibrahim LAWANI</p>
-                <p className='pb-5 sm:text-sm md:text-xl lg:text-sm'>
-                  <span>2021 | </span>
-                  <span>UGB Saint-Louis, Sénégal.</span>
-                </p>
-                <p className='pb-2'><span className='font-semibold'>Co-supervisor :</span> <span>Aliou DIOP (UGB)</span></p>
-                <p>
-                 <span className='font-semibold'>title :</span> <span>
-                    Comparaison entre le modèle de Poisson à inflation zéros et <br/> modèle de hurdle pour la modélisation des données de comptage
-                  </span>
-                </p>
-              </div>
-              <div className='shadow-md shadow-amber-600 lg:p-7 sm:p-4 rounded-xl sm:text-base md:text-xl lg:text-base'>
-                <p className='font-black pb-2'>Gnon Siya AGNONDJI</p>
-                <p className='pb-5 sm:text-sm md:text-xl lg:text-sm'>
-                  <span>2021 | </span>
-                  <span>UGB Saint-Louis, Sénégal.</span>
-                </p>
-                <p className='pb-2'><span className='font-semibold'>Co-supervisor :</span> <span>Aliou DIOP (UGB)</span></p>
-                <p>
-                  <span className='font-semibold'>title :</span> <span>
-                    Poisson-Gamma regression model with zero inflation and applications
-                  </span>
-                </p>
-              </div>
-              <div className='shadow-md shadow-amber-600 lg:p-7 sm:p-4 rounded-xl sm:text-base md:text-xl lg:text-base'>
-                <p className='font-black pb-2'>Maël QUATREVAUX</p>
-                <p className='pb-5 sm:text-sm md:text-xl lg:text-sm'>
-                  <span>2021 | </span>
-                  <span>UBS Vannes, France.</span>
-                </p>
-                <p className='pb-2'><span className='font-semibold'>Co-supervisor :</span> <span>Aurélien RAGOT (Micropole Nord Ouest)</span></p>
-                <p>
-                  <span className='font-semibold'>title :</span> <span>
-                    Internship Consultant Buisines Intelligence
-                  </span>
-                </p>
-              </div>
+              {supervisings.map((supervising)=>(
+                <div className='shadow-md shadow-amber-600 lg:p-7 sm:p-4 rounded-xl sm:text-base md:text-xl lg:text-base' key={supervising.id}>
+                  <p className='font-black pb-2'>{supervising.name}</p>
+                  <p className='pb-5 sm:text-sm md:text-xl lg:text-sm'>
+                    <span>{supervising.year} | </span>
+                    <span>{supervising.location}</span>
+                  </p>
+                  <p className='pb-2'>
+                    <span className='font-semibold'>Co-supervisor :</span> <span>{supervising.co_supervisor}</span>
+                  </p>
+                  <p>
+                  <span className='font-semibold'>title :</span> <span className=''>
+                      {supervising.title}
+                    </span>
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
