@@ -1,7 +1,7 @@
 import Layout from "../components/layout/Layout";
 import SectionAbout from '../components/home/SectionAbout';
 import SectionContact from "../components/home/SectionContact";
-import NavbarHome from '../components/navigation/NavbarHome'
+import NavbarHome from '../components/navigation/NavbarHome';
 
 export default function Home() {
   return (
