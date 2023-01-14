@@ -4,7 +4,7 @@ import NavbarPages from '../components/navigation/NavbarPages';
 
 export default function talks() {
   return (
-    <Layout title = 'Talks' metaContent ='Bienvenue sur ma page web, Je suis Essoham ALI, Ph.D. in Mathematics Applied' >
+    <Layout title = 'Talks' metaContent ="Welcome to my website, I'm Essoham ALI, Ph.D. in Applied Mathematics">
       <NavbarPages/>
       <div className='my-16'>
         <h1 className='uppercase text-center font-black underline sm:text-3xl md:text-4xl lg:text-3xl text-amber-700'>

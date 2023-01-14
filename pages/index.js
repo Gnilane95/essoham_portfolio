@@ -5,7 +5,7 @@ import NavbarHome from '../components/navigation/NavbarHome';
 
 export default function Home() {
   return (
-    <Layout title = 'Accueil' metaContent ='Bienvenue sur ma page web, Je suis Essoham ALI, Ph.D. in Mathematics Applied' >
+    <Layout title = 'Home' metaContent ="Welcome to my website, I'm Essoham ALI, Ph.D. in Applied Mathematics" >
       <NavbarHome />
       {/* Home section */}
       <div className='my-28'>

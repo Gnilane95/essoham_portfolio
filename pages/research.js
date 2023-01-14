@@ -7,23 +7,23 @@ export default function research() {
   const supervisings = [
     {
       name : 'Ibrahim LAWANI',
-      year : '2021',
+      year : '2022-2023',
       location : 'UGB Saint-Louis, Sénégal.',
       co_supervisor : 'Aliou DIOP (UGB)',
-      title : 'Comparison between the Poisson inflation model and the hurdle model for the modeling of count data',
+      title : 'Comparison between the zero inflated Poisson and the hurdle model for the modeling of count data',
       id : 1,
     },
     {
       name : 'Gnon Siya AGNONDJI',
-      year : '2021',
+      year : '2022-2023',
       location : 'UGB Saint-Louis, Sénégal.',
       co_supervisor : 'Aliou DIOP (UGB)',
-      title : 'Poisson-Gamma regression model with zero inflation and applications',
+      title : 'Zero inflated Poisson-Gamma regression model with applications',
       id : 2,
     },
     {
       name : 'Maël QUATREVAUX',
-      year : '2021',
+      year : '2022-2023',
       location : 'UBS Vannes, France.',
       co_supervisor : 'Aurélien RAGOT (Micropole Nord Ouest)',
       title : 'Internship Consultant Buisines Intelligence',
@@ -31,7 +31,7 @@ export default function research() {
     },
   ]
   return (
-    <Layout title = 'Research' metaContent ='Bienvenue sur ma page web, Je suis Essoham ALI, Ph.D. in Mathematics Applied' >
+    <Layout title = 'Research' metaContent ="Welcome to my website, I'm Essoham ALI, Ph.D. in Applied Mathematics" >
       <NavbarPages />
       <div className='my-28'>
         <h1 className='uppercase text-center font-black underline sm:text-3xl lg:text-3xl md:text-4xl text-amber-700'>
@@ -103,7 +103,7 @@ export default function research() {
                     <span className='font-semibold'>Co-supervisor :</span> <span>{supervising.co_supervisor}</span>
                   </p>
                   <p>
-                  <span className='font-semibold'>title :</span> <span className=''>
+                  <span className='font-semibold'>Title :</span> <span className=''>
                       {supervising.title}
                     </span>
                   </p>
