@@ -85,13 +85,13 @@ export default function NavbarHome() {
                   steps={[
                     "Ph.D. in Applied Mathematics",
                     2000,
-                    "Attaché Temporaire à la recherche et à l'enseignement",
+                    "Attaché Temporaire d'enseignement et de recherche",
                     2000,
                   ]}
                 />
               </h1>
               <p className="pt-5 sm:text-center md:text-2xl lg:text-xl">
-                I am, actually, an temporary Research and Teaching Attached (ATER).
+                I am, currently, an temporary Research and Teaching Attached (ATER).
               </p>
               <div className="mt-10 flex justify-center">
                 <Link
