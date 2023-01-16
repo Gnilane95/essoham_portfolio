@@ -2,10 +2,10 @@ const fr = {
   french: "French",
   english: "English",
   menu: {
-    research: "Recherche",
+    research: "Recherches",
     publications: "Publications",
     teaching: "Enseignements",
-    talks: "Entretiens",
+    talks: "Conférences",
   },
 };
 export default fr;

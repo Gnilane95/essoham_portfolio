@@ -2,7 +2,7 @@ const en = {
   french: "Français",
   english: "Englais",
   menu: {
-    research: "Research gg",
+    research: "Research",
     publications: "Publications",
     teaching: "Teaching",
     talks: "Talks",

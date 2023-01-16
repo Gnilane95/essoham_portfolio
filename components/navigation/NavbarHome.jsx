@@ -36,10 +36,7 @@ export default function NavbarHome() {
             </span>
           </Link>
           <FullscreenNavbar />
-          <div className="lg:flex lg:space-x-7 text-xl font-semibold sm:hidden">
-            <div className="w-24 font-light underline cursor-pointer" onClick={changeLocale}>
-              {currentLang === "en" ? "Francais" : "English"}
-            </div>
+          <div className="lg:flex lg:items-center lg:space-x-7 text-xl font-semibold sm:hidden">
             <Link href="/research" className="hover:text-amber-600">
               {t.menu.research}
             </Link>
@@ -52,6 +49,9 @@ export default function NavbarHome() {
             <Link href="/talks" className="hover:text-amber-600">
               {t.menu.talks}
             </Link>
+            <div className="btn bg-amber-700 ml-10 w-24 font-light cursor-pointer" onClick={changeLocale}>
+              {currentLang === "en" ? "Francais" : "English"}
+            </div>
           </div>
         </nav>
         {/* hero */}
