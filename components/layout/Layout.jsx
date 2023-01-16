@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Footer from '../footer/Footer'
 
-export default function Layout({ children, title, metaContent, image ="img/undraw_Certification_re_ifll.png" }) {
+export default function Layout({ children, title, metaContent, image ="../assets/essoham.jpg" }) {
   return (
     <>
       <Head>
-          <title>Essoham ALI | {title}</title>
-          <meta name="description" content={metaContent} />
+          <title>Essoham ALI Portfolio | {title}</title>
+          <meta name="description" content={metaContent} key="desc" />
           <meta property='og:title' content={title}/>
           <meta property='og:description' content={metaContent}/>
           <meta property='og:image' content={image}/>
