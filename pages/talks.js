@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from "../components/layout/Layout";
-import NavbarPages from '../components/navigation/NavbarPages';
+import Navbar from '../components/header/Navbar';
 
 export default function talks() {
   return (
     <Layout title = 'Talks' metaContent ="Welcome to my website, I'm Essoham ALI, Ph.D. in Applied Mathematics">
-      <NavbarPages/>
+      <Navbar/>
       <div className='my-16'>
         <h1 className='uppercase text-center font-black underline sm:text-3xl md:text-4xl lg:text-3xl text-amber-700'>
           Talks

@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from "../components/layout/Layout";
-import NavbarPages from '../components/navigation/NavbarPages';
+import Navbar from '../components/header/Navbar';
 
 
 export default function research() {
@@ -32,12 +32,12 @@ export default function research() {
   ]
   return (
     <Layout title = 'Research' metaContent ="Welcome to my website, I'm Essoham ALI, Ph.D. in Applied Mathematics" >
-      <NavbarPages />
+      <Navbar />
       <div className='my-28'>
         <h1 className='uppercase text-center font-black underline sm:text-3xl lg:text-3xl md:text-4xl text-amber-700'>
           Research
         </h1>
-        <div className='xl:mx-44 sm:px-10 md:px-24 lg:mx-20 mt-20 lg:flex lg:justify-between lg:space-x-32'>
+        <div className='lg:px-40 xl:px-48 sm:px-10 md:px-24 mt-20 lg:flex lg:justify-between lg:space-x-32'>
           <div className='lg:w-1/2'>
             <div className='pb-10'>
               <h2 className='sm:text-2xl lg:text-2xl md:text-3xl font-bold pb-2'>My researcher work</h2>
@@ -91,7 +91,7 @@ export default function research() {
           <hr className='mb-5 mx-28'/>
           <div className=''>
             <h3 className='text-center sm:text-xl lg:text-xl md:text-2xl underline'>Master students :</h3>
-            <div className='xl:grid xl:grid-cols-3 lg:grid lg:grid-cols-2 gap-7 xl:mx-44 sm:px-10 md:px-24 lg:mx-20 sm:flex sm:flex-col sm:space-y-3 md:space-y-7 lg:space-y-0 mt-10'>
+            <div className='xl:grid xl:grid-cols-3 lg:grid lg:grid-cols-2 gap-7 lg:px-40 xl:px-48 sm:px-10 md:px-24 sm:flex sm:flex-col sm:space-y-3 md:space-y-7 lg:space-y-0 mt-10'>
               {supervisings.map((supervising)=>(
                 <div className='shadow-md shadow-amber-600 lg:p-7 sm:p-4 rounded-xl sm:text-base md:text-xl lg:text-base' key={supervising.id}>
                   <p className='font-black pb-2'>{supervising.name}</p>
