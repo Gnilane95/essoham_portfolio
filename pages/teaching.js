@@ -1,10 +1,15 @@
 import React from 'react'
 import Layout from "../components/layout/Layout";
 import Navbar from '../components/header/Navbar';
+import { NextSeo } from 'next-seo';
 
 export default function teaching() {
   return (
-    <Layout title = 'Teaching' metaContent ="Welcome to my portfolio, I'm Essoham ALI, Ph.D. in Applied Mathematics">
+    <Layout>
+      <NextSeo
+        title="Essoham ALI | Teaching"
+        description="Welcome to my portfolio, I'm Essoham ALI, Ph.D. in Applied Mathematics. In this page, you will see my teaching."
+      />
       <Navbar/>
       <div className='my-16'>
         <h1 className='uppercase text-center font-black underline sm:text-3xl lg:text-3xl md:text-4xl text-amber-700'>
