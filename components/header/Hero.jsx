@@ -30,7 +30,7 @@ export default function hero() {
                 </Link>
               </div>
               <p className="text-xl md:text-2xl lg:text-xl">Hello, I'm Essoham ALI</p>
-              {t.hero.welcome}
+              {/* {t.hero.welcome} */}
               <h1 className="lg:text-lg sm:text-sm md:text-2xl pt-5 sm:text-center h-12 font-semibold">
                 {" "}
                 <Typical
