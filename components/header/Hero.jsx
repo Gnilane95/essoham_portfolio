@@ -38,7 +38,7 @@ export default function hero() {
                   steps={[
                     "Ph.D. in Applied Mathematics",
                     2000,
-                    "Attaché Temporaire d'enseignement et de recherche",
+                    "Temporary Research and Teaching Attached",
                     2000,
                   ]}
                 />
