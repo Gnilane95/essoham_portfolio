@@ -20,11 +20,11 @@ export default function teaching() {
             </p>
             <div className='mt-5'>
               <ul className='leading-loose sm:text-base lg:text-base md:text-xl'>
-                <li className='list-disc'>Courses/TD of Elements of Statistics L1 (Mathematics)</li>
-                <li className='list-disc'>Courses/TD in Linear Models and Applications L2 (Mathematics)</li>
-                <li className='list-disc'>Courses/TD in Programming and statistical software with R (L3 Mathematics)</li>
-                <li className='list-disc'>Courses/TD in Discriminant analysis and logistic regression (L3 Mathematics)</li>
-                <li className='list-disc'>Courses/TD in Python and Machine Learning (L3 Mathematics)</li>
+                <li className='list-disc'>Courses/TD : Elements of Statistics L1 (Mathematics)</li>
+                <li className='list-disc'>Courses/TD : Linear Models and Applications L2 (Mathematics)</li>
+                <li className='list-disc'>Courses/TD : Programming and statistical software with R (L3 Mathematics)</li>
+                <li className='list-disc'>Courses/TD : Discriminant analysis and logistic regression (L3 Mathematics)</li>
+                <li className='list-disc'>Courses/TD : Python and Machine Learning (L3 Mathematics)</li>
               </ul>
             </div>
           </div>
@@ -35,8 +35,8 @@ export default function teaching() {
             </span>
             <div className='mt-5 sm:text-base lg:text-base md:text-xl'>
               <ul className='leading-loose'>
-                <li className='list-disc'>TD on Statistics and probability (L2 computer science, 32h)</li>
-                <li className='list-disc'>TD on Randomness Management with Python (L2 Informatique, 24 h)</li>
+                <li className='list-disc'>TD : Statistics and probability (L2 computer science, 32h)</li>
+                <li className='list-disc'>TD : Randomness Management with Python (L2 Informatique, 24 h)</li>
               </ul>
             </div>
           </div>
@@ -47,10 +47,10 @@ export default function teaching() {
             </span>
             <div className='mt-5'>
               <ul className='leading-loose sm:text-base lg:text-base md:text-xl'>
-                <li className='list-disc'>TD in Analysis 1 (L1 Mathematics-Physics-Computer Science, 36 h)</li>
-                <li className='list-disc'>TD/TP work in Numerical Computation (L2 Applied Mathematics, 24 h)</li>
-                <li className='list-disc'>TD in Statistical Probability (L1 Mathematics-Physics-Computer Science, 32 h)</li>
-                <li className='list-disc'>TD data analysis with R</li>
+                <li className='list-disc'>TD : Analysis 1 (L1 Mathematics-Physics-Computer Science, 36 h)</li>
+                <li className='list-disc'>TD/TP : Numerical Computation (L2 Applied Mathematics, 24 h)</li>
+                <li className='list-disc'>TD : Statistical Probability (L1 Mathematics-Physics-Computer Science, 32 h)</li>
+                <li className='list-disc'>TD : Data analysis with R</li>
               </ul>
             </div>
           </div>
@@ -61,9 +61,9 @@ export default function teaching() {
             </span>
             <div className='mt-5'>
               <ul className='leading-loose sm:text-base lg:text-base md:text-xl'>
-                <li className='list-disc'>Courses/TD in Inferential Statistics (L3 Computer Science course, 30 h)</li>
-                <li className='list-disc'>Courses/TD in operations Research (Master of Computer Science, 30 h)</li>
-                <li className='list-disc'>Courses/TD in data statistics: implementation of statistical methods (L3, 42 hrs)</li>
+                <li className='list-disc'>Courses/TD : Inferential Statistics (L3 Computer Science course, 30 h)</li>
+                <li className='list-disc'>Courses/TD : operations Research (Master of Computer Science, 30 h)</li>
+                <li className='list-disc'>Courses/TD : data statistics: implementation of statistical methods (L3, 42 hrs)</li>
               </ul>
             </div>
           </div>
