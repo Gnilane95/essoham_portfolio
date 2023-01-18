@@ -7,7 +7,7 @@ import Hero from "../components/header/Hero";
 export default function Home() {
   return (
     <Layout title = 'Home' metaContent ="Welcome to my website, I'm Essoham ALI, Ph.D. in Applied Mathematics" >
-      <Navbar />
+      b<Navbar />
       <Hero/>
       {/* Home section */}
       <div className='my-28'>

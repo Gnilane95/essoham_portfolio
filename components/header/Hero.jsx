@@ -63,7 +63,7 @@ export default function hero() {
         <img
           src="../assets/shape-bg.png"
           alt=""
-          className="absolute bottom-0 z-50 lg:h-32 w-screen left-0 shadow-md"
+          className="absolute bottom-0 z-50 lg:h-32 w-screen left-0"
         />
     </div>
   )

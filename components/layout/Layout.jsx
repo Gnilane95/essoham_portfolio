@@ -7,7 +7,7 @@ export default function Layout({ children, title, metaContent, image ="../assets
       <Head>
           <title>Essoham ALI Portfolio | {title}</title>
           <meta name="description" content={metaContent} key="desc" />
-          <meta property='og:title' content={title}/>
+          <meta property='og:title' content="Bienvenue sur le site de Essoham ALI - Ph.D. in Applied Mathematics"/>
           <meta property='og:description' content={metaContent}/>
           <meta property='og:image' content={image}/>
       </Head>
