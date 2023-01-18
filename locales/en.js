@@ -7,5 +7,8 @@ const en = {
     teaching: "Teaching",
     talks: "Talks",
   },
+  hero:{
+    welcome: "Hello, I'm Essoham ALI",
+  },
 };
 export default en;

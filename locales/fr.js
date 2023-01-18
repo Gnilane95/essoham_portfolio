@@ -7,5 +7,8 @@ const fr = {
     teaching: "Enseignements",
     talks: "Conférences",
   },
+  hero:{
+    welcome: "Bienvenue, je suis Essoham ALI",
+  },
 };
 export default fr;
