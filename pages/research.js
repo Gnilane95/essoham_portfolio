@@ -55,7 +55,7 @@ export default function research() {
               <h2 className='sm:text-2xl lg:text-2xl md:text-3xl font-bold pb-2'>My postdoc work</h2>
               <hr className='mb-5'/>
               <p className='sm:leading-relaxed lg:leading-relaxed md:leading-loose text-justify sm:text-base md:text-2xl lg:text-base'>
-                In my post doc I worked on stochastic processes applied to eye tracking problems. The objective of the work is to model the sequence of 2D coordinates of the point of gaze of a climber and the scan path of his/her visual intake during ascension on an artificial climbing wall, proposing different probabilistic/statistical techniques for comparing different learning and developing a statistical methodology for analysing climbing (modelling, estimation).
+                In my post doc, i worked on stochastic processes applied to eye tracking problems. The objective of the work is to model the sequence of 2D coordinates of the point of gaze of a climber and the scan path of his/her visual intake during ascension on an artificial climbing wall, proposing different probabilistic/statistical technics for comparing different learning and developing a statistical methodology for analysing climbing (modelling, estimation).
               </p>
             </div>
             <div>
@@ -63,7 +63,7 @@ export default function research() {
               <hr className='mb-5'/>
               <p className='sm:leading-relaxed lg:leading-relaxed md:leading-loose text-justify sm:text-base    md:text-2xl lg:text-base'>
                 <span>
-                  My Ph.D thesis in applied mathematics, specializing in statistics, is entitled &quot;Marginal regression models for count data with excess zeros&quot;. It deals with estimation problems in statistical regression models for count data known as &quot;zeros inflated &quot;. This type of problem has many applications in public health, insurance, socialsciences and engineering.
+                  My Ph.D thesis in applied mathematics, specializing in statistics, is entitled &quot;Marginal regression models for count data with excess zeros&quot;. It deals with estimation problems in statistical regression models for count data known as &quot;zero-inflated &quot;. This type of problem has many applications in public health, insurance and engineering.
                 </span>
                 <span className='pt-5 block text-justify'>
                   In a first work, published in &quot;Communications in Statistics - Theory and Methods&quot;, I have studied the theoretical and numerical aspects of statistical inference in the marginal binomial zero-inflated regression model (a mixture type model). I proposed original estimators of the parameters of this model and rigorously established their convergence properties (convergence in probability, convergence in law, convergence of an asymptotic variance estimator). Then I carried out an exhaustive simulation study using the R software, after which he was able to confirm the good properties at finite distance of the proposed estimators. Finally, I applied the proposed model and inference to the study of the problem of non-use of medical care in the USA.
@@ -82,9 +82,12 @@ export default function research() {
             <hr className='mb-5'/>
             <ul>
               <li className='shadow-lg p-5 mb-5 border-l-8 border-l-amber-800 sm:text-base md:text-2xl lg:text-base'>
-                Marginal models, count data models, regressions, zero inflation.
+                Marginal models, Zero-inflated models.
               </li>
               <li className='shadow-lg p-5 mb-5 border-l-8 border-l-amber-800 sm:text-base md:text-2xl lg:text-base'>Statistical learning.</li>
+              <li className='shadow-lg p-5 mb-5 border-l-8 border-l-amber-800 sm:text-base md:text-2xl lg:text-base'>
+                Advanced statistics.
+              </li>
               <li className='shadow-lg p-5 mb-5 border-l-8 border-l-amber-800 sm:text-base md:text-2xl lg:text-base'>
                 Applications: health economics, medicine.
               </li>

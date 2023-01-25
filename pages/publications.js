@@ -8,7 +8,7 @@ export default function publications() {
   const publications =[
     {
       title : 'A simulation-based study of Zero-inflated Bernoulli model with various models for the susceptible probability.',
-      journal : 'In progress',
+      journal : 'arXiv.org e-print, 2023 (submitted paper).',
       authors :'Essoham Ali, Kim-Hung Pho',
       year : '2022',
       to : 'https://arxiv.org/abs/2301.09698',
