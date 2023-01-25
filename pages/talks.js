@@ -31,13 +31,13 @@ export default function talks() {
                 <div className='mt-5'>
                   <ul className='leading-loose pl-5 sm:text-base md:text-xl lg:text-base'>
                     <li className='list-disc'>
-                      03-2022: From Statistics to Data Science for the Economy and Business of the Future.
+                      03-2022:  De la Statistique à la Data Science pour l’économie et l’entreprise du futur.
                     </li>
-                    <li className='list-disc pt-3'>12-2020 : Meetings of Young African Researchers in France.</li>
-                    <li className='list-disc pt-3'>12-2019 : EMA "Mathematics for Networks" Madagascar.</li>
-                    <li className='list-disc pt-3'>12-2019 : 3rd edition of the "Journées Mathématiques du Sénégal" UGB Saint-Louis.</li>
+                    <li className='list-disc pt-3'>12-2020 :  Rencontres des Jeunes Chercheurs Africains en France.</li>
+                    <li className='list-disc pt-3'>12-2019 :  EMA « Mathématiques pour les réseaux » Madagascar</li>
+                    <li className='list-disc pt-3'>12-2019 : 3rd edition of "Journées Mathématiques du Sénégal" UGB Saint-Louis.</li>
                     <li className='list-disc pt-3'>06-2019 : Summer School in Statistics and Data Science.</li>
-                    <li className='list-disc pt-3'>09-2018 : CIMPA " Lifetime and spatial statistics " Togo.</li>
+                    <li className='list-disc pt-3'>09-2018 : CIMPA "  Statistiques des durées de vie et statistiques spatiales " Togo.</li>
                   </ul>
                 </div>
               </div>
@@ -49,15 +49,15 @@ export default function talks() {
                 <div className='mt-5'>
                   <ul className='leading-loose pl-5 sm:text-base md:text-xl lg:text-base'>
                     <li className='list-disc'>
-                      12-2022 : 7th Statistics - Data Science Meeting: Environment and Climate.
+                      12-2022 : 7èmes Rencontres Statistique - Sciences des données: Environnement et climat.
                     </li>
                     <li className='list-disc pt-3'>
-                      03-2022 : Statistics working group seminar at LMRS, University of Rouen.
+                      03-2022 : Séminaire de groupe de travail de statistique au LMRS, Université de Rouen.
                     </li>
                     <li className='list-disc pt-3'>
-                      01-2022 : Presentation to the statistics working group at LMRS, University of Rouen.
+                      01-2022 :  Exposé au groupe de travail de statistique au LMRS, Université de Rouen.
                     </li>
-                    <li className='list-disc pt-3'>05-2019 : 15th Day of Statistics in Rennes "Statistics and Data"</li>
+                    <li className='list-disc pt-3'>05-2019 :  15ème Journée de Statistique de Rennes « Statistique et données »</li>
                   </ul>
                 </div>
               </div>

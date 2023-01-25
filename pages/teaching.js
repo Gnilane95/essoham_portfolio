@@ -38,10 +38,11 @@ export default function teaching() {
             <span className='btn bg-slate-800 hover:bg-amber-700 cursor-none border-none md:ml-5 sm:text-base lg:text-base md:text-xl'>
               Université de Rouen
             </span>
+            <p className='text-amber-700 italic pt-5'>The following teachings were carried out during my post-doc</p>
             <div className='mt-5 sm:text-base lg:text-base md:text-xl'>
               <ul className='leading-loose'>
-                <li className='list-disc'>TD : Statistics and probability (L2 computer science, 32h)</li>
-                <li className='list-disc'>TD : Randomness Management with Python (L2 Informatique, 24 h)</li>
+                <li className='list-disc'>TD : Statistics and probability (L2 Informatique, 32 hrs)</li>
+                <li className='list-disc'>TD : Statistics with Python (L2 Informatique, 24 hrs)</li>
               </ul>
             </div>
           </div>
@@ -52,9 +53,9 @@ export default function teaching() {
             </span>
             <div className='mt-5'>
               <ul className='leading-loose sm:text-base lg:text-base md:text-xl'>
-                <li className='list-disc'>TD : Analysis 1 (L1 Mathematics-Physics-Computer Science, 36 h)</li>
-                <li className='list-disc'>TD/TP : Numerical Computation (L2 Applied Mathematics, 24 h)</li>
-                <li className='list-disc'>TD : Statistical Probability (L1 Mathematics-Physics-Computer Science, 32 h)</li>
+                <li className='list-disc'>TD : Analysis 1 (L1 Mathematics-Physics-Computer Science, 36 hrs)</li>
+                <li className='list-disc'>TD/TP : Numerical Computation (L2 Applied Mathematics, 24 hrs)</li>
+                <li className='list-disc'>TD : Statistical Probability (L1 Mathematics-Physics-Computer Science, 32 hrs)</li>
                 <li className='list-disc'>TD : Data analysis with R</li>
               </ul>
             </div>
@@ -66,9 +67,9 @@ export default function teaching() {
             </span>
             <div className='mt-5'>
               <ul className='leading-loose sm:text-base lg:text-base md:text-xl'>
-                <li className='list-disc'>Courses/TD : Inferential Statistics (L3 Computer Science course, 30 h)</li>
-                <li className='list-disc'>Courses/TD : operations Research (Master of Computer Science, 30 h)</li>
-                <li className='list-disc'>Courses/TD : data statistics: implementation of statistical methods (L3, 42 hrs)</li>
+                <li className='list-disc'>Courses/TD : Inferential Statistics (L3 Computer Science)</li>
+                <li className='list-disc'>Courses/TD : operations Research (Master of Computer Science)</li>
+                <li className='list-disc'>Courses/TD : data statistics: implementation of statistical methods(L3)</li>
               </ul>
             </div>
           </div>
