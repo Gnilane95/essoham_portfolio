@@ -22,7 +22,7 @@ export default function hero() {
                 <Link href="https://scholar.google.com/citations?hl=fr&user=eUeEmdAAAAAJ&view_op=list_works&sortby=pubdate">
                   <SiGooglescholar />
                 </Link>
-                <Link href="#">
+                <Link href="https://www.linkedin.com/in/essoham-ali-ph-d-285214102/">
                   <AiFillLinkedin />
                 </Link>
                 <Link href="#">
