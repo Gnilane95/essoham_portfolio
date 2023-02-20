@@ -48,7 +48,7 @@ export default function hero() {
               </p>
               <div className="mt-10 flex justify-center">
                 <Link
-                  href="CV_EA.pdf"
+                  href="cv_ea.pdf"
                   download="CV Essoham ALI"
                   className="btn bg-amber-900 border-white px-16 rounded-2xl hover:bg-slate-50 hover:text-slate-900"
                 >
