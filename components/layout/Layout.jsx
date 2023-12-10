@@ -1,5 +1,6 @@
 // import Head from 'next/head'
 import Footer from '../footer/Footer'
+import CustomHead from './CustomHead'
 
 export default function Layout({children}) {
   // children, title, metaContent, image ="../assets/essoham.jpg"
@@ -12,6 +13,7 @@ export default function Layout({children}) {
           <meta property='og:description' content={metaContent}/>
           <meta property='og:image' content={image}/>
       </Head> */}
+      <CustomHead/>
       <div className='flex flex-col'>
         <div className="">
           <main className='flex-grow'>
