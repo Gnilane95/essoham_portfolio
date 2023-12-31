@@ -3,19 +3,13 @@ let sitelinks = [
   {
     url: baseUrl,
     lastModified: new Date(),
-    changeFrequency: "yearly",
+    changeFrequency: "weekly",
     priority: 1,
   },
   {
     url: `${baseUrl}/research`,
     lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 1,
-  },
-  {
-    url: `${baseUrl}/publications`,
-    lastModified: new Date(),
-    changeFrequency: "daily",
+    changeFrequency: "weekly",
     priority: 1,
   },
   {
