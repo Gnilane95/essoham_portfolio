@@ -1,71 +1,68 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 import Typical from "react-typical";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiFillTwitterSquare } from "react-icons/ai";
-import { SiGooglescholar } from "react-icons/si";
+import { MdArrowForward } from "react-icons/md";
+import {uco, lmba, memberOfMAPP} from "../../data/siteData";
 
 export default function hero() {
   return (
     <div className="bg-slate-800 h-[50%] w-full lg:px-40 xl:px-48 sm:px-5 md:px-24 lg:pb-36 sm:pb-16 relative text-white">
-          <div className="lg:flex lg:justify-between lg:items-center pt-10">
-            <div className="flex flex-col items-center">
-              {/* img for sm */}
-              <div className=" rounded-full flex shadow-lg pb-3 px-2 border-b-2 mb-5 lg:hidden">
-                <img
-                  src="../assets/essoham.jpg"
-                  alt=""
-                  className="rounded-full h-48 w-48 md:w-72 md:h-72"
-                />
-              </div>{" "}
-              <div className="flex text-3xl gap-2 mb-5">
-                <Link href="https://scholar.google.com/citations?hl=fr&user=eUeEmdAAAAAJ&view_op=list_works&sortby=pubdate">
-                  <SiGooglescholar />
-                </Link>
-                <Link href="https://www.linkedin.com/in/essoham-ali-ph-d-285214102/">
-                  <AiFillLinkedin />
-                </Link>
-                <Link href="#">
-                  <AiFillTwitterSquare />
-                </Link>
-              </div>
-              <p className="text-xl md:text-2xl lg:text-xl">Hello, I'm Essoham ALI</p>
-              {/* {t.hero.welcome} */}
-              <h1 className="lg:text-lg sm:text-sm md:text-2xl pt-5 sm:text-center h-12 font-semibold">
-                {" "}
-                <Typical
-                  loop={Infinity}
-                  steps={[
-                    "Ph.D. in Applied Mathematics",
-                    2000,
-                    "Temporary Research and Teaching Attached",
-                    2000,
-                  ]}
-                />
-              </h1>
-              <p className="pt-5 sm:text-center md:text-2xl lg:text-xl">
-                I am, currently, an temporary Research and Teaching <br /> Attached (ATER).
-              </p>
-              <div className="mt-10 flex justify-center">
-                <Link
-                  href="cv_EA.pdf"
-                  download="CV Essoham ALI"
-                  className="btn bg-amber-900 border-white px-16 rounded-2xl hover:bg-slate-50 hover:text-slate-900"
-                >
-                  Resume
-                </Link>
-              </div>
-            </div>
-            {/* img for lg */}
-            <div className=" lg:rounded-full lg:flex lg:shadow-lg lg:pb-3 lg:px-2 lg:border-b-2 lg:mr-28 sm:hidden">
-              <img src="../assets/essoham.jpg" alt="" className="lg:rounded-full lg:h-64 lg:w-64" />
-            </div>
+      <div className="lg:flex lg:justify-between lg:items-center pt-10">
+        <div className="flex flex-col">
+          {/* img for sm */}
+          <div className=" rounded-full flex shadow-lg pb-3 px-2 border-b-2 mb-5 lg:hidden">
+            <img
+              src="../assets/essoham.jpg"
+              alt=""
+              className="rounded-full h-48 w-48 md:w-72 md:h-72"
+            />
+          </div>{" "}
+          <p className="text-base">Hey There 👋 I am </p>
+          <h1 className="font-bold text-6xl md:text-6xl lg:text-6xl my-2">
+            Essoham ALI
+          </h1>
+          {/* {t.hero.welcome} */}
+          <h1 className="lg:text-lg sm:text-sm md:text-2xl pt-5  h-12 font-semibold">
+            {" "}
+            <Typical
+              loop={Infinity}
+              steps={[
+                "Ph.D. in Applied Mathematics",
+                "",
+                2000,
+              ]}
+            />
+          </h1>
+          <p className="pt-5 text-base">
+            Research Lecturer at the Catholic <Link  target="_blank" rel="noreferrer" href={uco} className="hover:text-amber-700">University of the West UCO Angers</Link>
+            <br />
+            Member of the <Link  target="_blank" rel="noreferrer" href={memberOfMAPP} className="hover:text-amber-700">Applied Mathematics Institute of Angers</Link><br/>
+            Member of <Link  target="_blank" rel="noreferrer" href={lmba} className="hover:text-amber-700">Laboratoire de Mathématique 
+            Bretagne Atlantique (LMBA, Statistics group)</Link>
+          </p>
+          <div className="mt-10 flex gap-x-6">
+            <Link
+              href="/research"
+              className="btn px-6 bg-amber-700 rounded-full hover:bg-slate-50 hover:text-slate-900"
+            >
+              my Research <MdArrowForward className="ml-3" />
+            </Link>
           </div>
-        <img
-          src="../assets/shape-bg.png"
-          alt=""
-          className="absolute bottom-0 z-50 lg:h-32 w-screen left-0 shadow-md"
-        />
+        </div>
+        {/* img for lg */}
+        <div className=" lg:rounded-full lg:flex lg:shadow-lg lg:pb-3 lg:px-2 lg:border-b-2 lg:mr-28 sm:hidden">
+          <img
+            src="../assets/essoham.jpg"
+            alt="Essoham Ali"
+            className="lg:rounded-full lg:h-64 lg:w-64"
+          />
+        </div>
+      </div>
+      <img
+        src="../assets/shape-bg.png"
+        alt=""
+        className="absolute bottom-0 z-50 lg:h-32 w-screen left-0 "
+      />
     </div>
-  )
+  );
 }

@@ -1,9 +1,10 @@
 import Layout from "../components/layout/Layout";
-import SectionAbout from "../components/home/SectionAbout";
 import SectionContact from "../components/home/SectionContact";
 import Navbar from "../components/header/Navbar";
 import Hero from "../components/header/Hero";
 import { NextSeo } from "next-seo";
+import SectionResearch from "../components/home/SectionResearch";
+import SectionContactInformation from "../components/home/SectionContactInformation";
 
 export default function Home() {
   return (
@@ -25,9 +26,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       {/* Home section */}
-      <div className="my-28">
-        <SectionAbout />
+      <div className="mt-20">
         <SectionContact />
+        <SectionResearch />
+        <SectionContactInformation />
       </div>
     </Layout>
   );

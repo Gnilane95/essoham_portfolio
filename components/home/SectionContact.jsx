@@ -1,18 +1,43 @@
-import React from 'react'
+import React from "react";
+import SiteHeader from "../shared/SiteHeader";
+import {
+  personalData,
+  univgastonBerger,
+  aliouDiopPortfolio,
+  jeanFrancoisDupy,
+} from "../../data/siteData";
+import Link from "next/link";
+
 
 export default function SectionContact() {
   return (
-    <div className='xl:mx-56 lg:mx-28 sm:mx-7 md:mx-16 shadow-lg lg:px-5 py-16 shadow-amber-700'>
-        <h1 className='text-center text-2xl font-black'>Contact</h1>
-        <hr className='mb-10 mt-2 w-36 mx-auto'/>
-        <div className="text-center lg:leading-loose sm:leading-relaxed md:leading-loose sm:text-sm md:text-2xl lg:text-base">
-        Laboratoire de Mathématiques de Bretagne Atlantique (LMBA) <br />
-        Université de Bretagne-Sud & UMR CNRS 6205 <br />
-        Campus de Tohannic, BP573, 56017 Vannes, France <br />
-        Membre de LERSTAD, Université Gaston Berger de Saint-Louis <br />
-        BP: 234 Saint-Louis, Sénégal <br />
-        E-mail : essoham.ali@univ-ubs.fr
-        </div>
-    </div>
-  )
+    <>
+      <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify pb-20">
+        <SiteHeader title={"Current position"} />
+        <p>
+          Since September 2023, I am a lecturer and researcher in Applied
+          Mathematics and Statistics at the Université Catholique de l'Ouest
+          (UCO), Angers France. I give lectures in the Institute of Applied
+          Mathematics (IMA). My research work is carried out within the
+          probability and statistics team of the Laboratoire de Mathématiques de
+          Bretagne Atlantique (LMBA), where I am an associate member.
+        </p>
+        <p className="mt-5">
+          I obtained my PhD in July 2021 at the{" "}
+          <Link href={univgastonBerger} className="font-bold">
+            Université Gaston Berger de Saint-Louis
+          </Link>
+          , Senegal, under the supervision of{" "}
+          <Link href={aliouDiopPortfolio} className="font-bold">
+            Aliou Diop{" "}
+          </Link>
+          and{" "}
+          <Link href={jeanFrancoisDupy} className="font-bold">
+            Jean-François Dupuy
+          </Link>
+          .
+        </p>
+      </div>
+    </>
+  );
 }

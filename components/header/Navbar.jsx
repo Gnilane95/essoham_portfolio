@@ -3,6 +3,7 @@ import FullscreenNavbar from "../FullscreenNavbar";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "../../hooks/translation.hook";
+import { cvlink } from "../../data/siteData";
 
 export default function Navbar() {
   const [currentLang, setCurrentLang] = useState("");
@@ -26,7 +27,7 @@ export default function Navbar() {
             href="/"
             className="font-bold sm:text-2xl md:text-4xl lg:text-2xl sm:mt-10 lg:mt-0 lg:uppercase">
             <span className="text-amber-700">
-              Essoham<span className="text-white">.ALI</span>
+              E<span className="text-white">.ALI</span>
             </span>
           </Link>
           <FullscreenNavbar />
@@ -34,14 +35,19 @@ export default function Navbar() {
             <Link href="/research" className="hover:text-amber-600">
               {t.menu.research}
             </Link>
-            <Link href="/publications" className="hover:text-amber-600">
-              {t.menu.publications}
-            </Link>
             <Link href="/teaching" className="hover:text-amber-600">
               {t.menu.teaching}
             </Link>
             <Link href="/talks" className="hover:text-amber-600">
               {t.menu.talks}
+            </Link>
+            <Link 
+            href={cvlink}
+            target="_blank"
+            rel="noreferrer" 
+            className="btn rounded-full px-6 bg-amber-700 hover:bg-slate-50 hover:text-slate-900"
+            >
+             Donwload CV
             </Link>
             {/* <div className="btn bg-amber-700 ml-10 w-24 font-light cursor-pointer" onClick={changeLocale}>
               {currentLang === "en" ? "Francais" : "English"}
