@@ -1,5 +1,5 @@
 import React from "react";
-import { MdOutlineAccountTree } from "react-icons/md";
+import { BsDot } from "react-icons/bs";
 import SiteHeader from "../shared/SiteHeader";
 import { researchs } from "../../data/siteData";
 import Link from "next/link";
@@ -18,14 +18,13 @@ export default function SectionResearch() {
           (non-exhaustive) list of more specific topics I have worked on:
         </p>
         <div className="flex flex-wrap mt-10">
-          <ul className="w-99">
+          <ul className="list-disc w-99">
             {
               researchs.map((research) => (
                 <li key={research.id} className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50 flex flex-wrap">
-                <MdOutlineAccountTree className="w-7 h-7 text-amber-700 mr-3" />
+                <BsDot className="w-7 h-7 text-amber-700 mr-3" />
                 <span className="font-bold">{research.topic}</span>
-                
-              </li>
+                </li>
               ))
             }
           <div className="mt-10 flex">

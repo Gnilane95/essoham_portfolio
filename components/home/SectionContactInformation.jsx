@@ -15,7 +15,7 @@ export default function SectionContactInformation() {
     <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify pb-20">
       <SiteHeader title={"Contact information"} />
       <div className="mt-5">
-        <p className="my-2">
+        <div className="my-2">
          
           <p className="flex flex-wrap font-bold mr-2"> <MdLocationOn className="mr-3" /> Address </p>
           <span>
@@ -24,7 +24,7 @@ export default function SectionContactInformation() {
             Institut de Mathématiques Appliquée <br/>
             3 Place André Leroy, 49000 Angers
           </span>
-        </p>
+        </div>
         <p className="flex flex-wrap leading-4 my-2">
           <HiOfficeBuilding className="mr-3" />
           <span className="font-bold mr-2">Office location</span>
