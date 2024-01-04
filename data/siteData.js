@@ -69,15 +69,11 @@ const researchs = [
   },
   {
     id: 4,
-    topic: "Machine Learning Techniques for Count data",
-  },
-  {
-    id: 5,
     topic:
       "Computational statistics; applied statistics, statistical learning, data science",
   },
   {
-    id: 6,
+    id: 5,
     topic: "Analysis of health economics, medicine, insurance data",
   },
 ];
