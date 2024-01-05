@@ -16,8 +16,7 @@ export default function SectionContactInformation() {
         <div className="my-2">
          
           <p className="flex flex-wrap font-bold mr-2"> <MdLocationOn className="mr-3" /> Address </p>
-          <span>
-            {" "}
+          <span className="whitespace-nowrap">
             Université Catholique de l’Ouest, Angers <br/>
             Institut de Mathématiques Appliquée <br/>
             3 Place André Leroy, 49000 Angers

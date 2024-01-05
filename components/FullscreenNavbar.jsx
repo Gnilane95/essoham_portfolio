@@ -9,7 +9,7 @@ export default function FullscreenNavbar() {
         <MobileNav open={open} setOpen={setOpen} />
         <div className="lg:hidden w-11/12 flex justify-end items-center">
           <div
-            className="group z-50 relative sm:w-6 sm:h-6 md:w-10 mt-10 md:h-8 cursor-pointer flex-col justify-between items-center flex"
+            className=" group z-50 relative sm:w-6 sm:h-6 md:w-10 mt-10 md:h-8 cursor-pointer flex-col justify-between items-center flex"
             onClick={() => {
               setOpen(!open);
             }}
@@ -44,18 +44,12 @@ function MobileNav({ open, setOpen }) {
         open ? "-translate-y-0" : "-translate-y-full"
       } transition-transform duration-300 ease-in-out filter`}
     >
-      <div className="flex flex-col justify-center sm:space-y-7 md:space-y-16 items-center mt-28 mb-10">
+      <div className="flex flex-col justify-center sm:space-y-7 md:space-y-16 items-center mt-20 mb-10">
         <Link
           href="/research"
           className="hover:text-amber-600 text-black sm:text-xl md:text-4xl font-semibold"
         >
           Research
-        </Link>
-        <Link
-          href="/publications"
-          className="hover:text-amber-600 text-black sm:text-xl md:text-4xl font-semibold"
-        >
-          Publications
         </Link>
         <Link
           href="/teaching"

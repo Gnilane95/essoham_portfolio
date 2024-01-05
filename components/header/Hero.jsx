@@ -21,7 +21,7 @@ export default function hero() {
 
           </div>
           <p className="text-base">Hey There 👋 I am </p>
-          <h1 className="font-bold text-6xl md:text-6xl lg:text-6xl my-2">
+          <h1 className="font-bold text-6xl md:text-6xl lg:text-6xl sm:text-3xl my-2">
             Essoham ALI
           </h1>
           {/* {t.hero.welcome} */}

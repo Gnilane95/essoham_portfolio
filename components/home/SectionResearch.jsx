@@ -1,5 +1,4 @@
 import React from "react";
-import { GoDotFill } from "react-icons/go";
 import SiteHeader from "../shared/SiteHeader";
 import { researchs } from "../../data/siteData";
 import Link from "next/link";
