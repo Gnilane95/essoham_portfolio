@@ -3,7 +3,6 @@ const fr = {
   english: "English",
   menu: {
     research: "Recherches",
-    publications: "Publications",
     teaching: "Enseignements",
     talks: "Conférences",
   },

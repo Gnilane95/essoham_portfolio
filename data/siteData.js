@@ -70,7 +70,7 @@ const researchs = [
   {
     id: 4,
     topic:
-      "Computational statistics; applied statistics, statistical learning, data science",
+      "Computational statistics, applied statistics, statistical learning, data science",
   },
   {
     id: 5,
@@ -282,7 +282,7 @@ const teachings = [
 ];
 
 const conferences = {
-  title: "Internatiol Conferences",
+  title: "International Conferences",
   talks: [
     {
       id: 1,

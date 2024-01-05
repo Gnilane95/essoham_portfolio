@@ -5,8 +5,6 @@ import { cvlink, personalData } from "../../data/siteData";
 import Link from "next/link";
 import { MdArrowForward } from "react-icons/md";
 import { IoMdMail } from "react-icons/io";
-import { GiOfficeChair } from "react-icons/gi";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdLocationOn } from "react-icons/md";
 import { HiOfficeBuilding } from "react-icons/hi";
 

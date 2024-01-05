@@ -16,7 +16,7 @@ export default function Layout({children}) {
       <CustomHead/>
       <div className='flex flex-col'>
         <div className="">
-          <main className='flex-grow'>
+          <main className=''>
             {children}
           </main>
         </div>

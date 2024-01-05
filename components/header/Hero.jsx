@@ -10,13 +10,16 @@ export default function hero() {
       <div className="lg:flex lg:justify-between lg:items-center pt-10">
         <div className="flex flex-col">
           {/* img for sm */}
-          <div className=" rounded-full flex shadow-lg pb-3 px-2 border-b-2 mb-5 lg:hidden">
+          <div className="flex items-center justify-center">
+          <div className=" rounded-full shadow-lg pb-3 px-2 border-b-2 mb-5 lg:hidden ">
             <img
               src="../assets/essoham.jpg"
               alt=""
               className="rounded-full h-48 w-48 md:w-72 md:h-72"
             />
           </div>{" "}
+
+          </div>
           <p className="text-base">Hey There 👋 I am </p>
           <h1 className="font-bold text-6xl md:text-6xl lg:text-6xl my-2">
             Essoham ALI
@@ -43,7 +46,7 @@ export default function hero() {
           <div className="mt-10 flex gap-x-6">
             <Link
               href="/research"
-              className="btn px-6 bg-amber-700 rounded-full hover:bg-slate-50 hover:text-slate-900"
+              className="btn  px-6 bg-amber-700 rounded-full hover:bg-slate-50 hover:text-slate-900"
             >
               my Research <MdArrowForward className="ml-3" />
             </Link>

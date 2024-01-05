@@ -1,5 +1,5 @@
 import React from "react";
-import { BsDot } from "react-icons/bs";
+import { GoDotFill } from "react-icons/go";
 import SiteHeader from "../shared/SiteHeader";
 import { researchs } from "../../data/siteData";
 import Link from "next/link";
@@ -22,8 +22,7 @@ export default function SectionResearch() {
             {
               researchs.map((research) => (
                 <li key={research.id} className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50 flex flex-wrap">
-                <BsDot className="w-7 h-7 text-amber-700 mr-3" />
-                <span className="font-bold">{research.topic}</span>
+                <span className="font-bold">&#x2022; {research.topic}</span>
                 </li>
               ))
             }
