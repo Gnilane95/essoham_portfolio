@@ -164,7 +164,7 @@ const teachings = [
       {
         type: "Courses/TD",
         id: 5,
-        topic: "Chronological series (Bachelor 2, Business Data Science )",
+        topic: "Time series (Bachelor 2, Business Data Science )",
       },
       {
         type: "Courses/TD",
