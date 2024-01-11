@@ -7,9 +7,9 @@ import { IoLocationSharp } from "react-icons/io5";
 
 export default function SectionSearchInProgress() {
   return (
-    <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify my-16">
+    <div className="xl:px-56 lg:px-20 sm:px-7 md:px-16 text-justify my-10">
       <SiteHeader title={"Some work in progress"}/>
-      <div className="mt-9">
+      <div className="mt-7">
         <ul className="divide-y divide-gray-200 dark:divide-gray-200">
           {curentResearch.map((talk) => {
             const { id, topic, town, contributors } = talk;
