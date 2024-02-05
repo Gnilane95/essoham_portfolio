@@ -1,5 +1,5 @@
-export default function manifest() {
-  return {
+export default function manifest(req, res) {
+  let manifest = {
     name: "Essoham ALI Portfolio",
     short_name: "Essoham ALI",
     description:
@@ -26,4 +26,6 @@ export default function manifest() {
       },
     ],
   };
+
+  res.send(manifest);
 }

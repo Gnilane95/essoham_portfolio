@@ -163,12 +163,12 @@ const teachings = [
       },
       {
         type: "Courses/TD",
-        id: 5,
+        id: 6,
         topic: "Time series (Bachelor 2, Business Data Science )",
       },
       {
         type: "Courses/TD",
-        id: 5,
+        id: 7,
         topic: "Stochastic process (L3 MIASHS)",
       },
     ],
@@ -262,19 +262,23 @@ const teachings = [
     courses: [
       {
         type: "Courses/TD",
+        id: 1,
         topic: "Inferential Statistics (L3 Computer Science)",
       },
       {
         type: "Courses/TD",
+        id: 2,
         topic: "Operations Research (Master of Computer Science)",
       },
       {
         type: "Courses/TD",
+        id: 3,
         topic:
           "Statistical Probability (L1 Mathematics-Physics-Computer Science, 32 hrs)",
       },
       {
         type: "Courses/TD",
+        id: 4,
         topic: "data statistics: implementation of statistical methods(L3)",
       },
     ],
@@ -330,27 +334,32 @@ const seminaires = {
   title: "Seminars",
   talks: [
     {
+      id: 1,
       year: "04-2023",
       subject: "A constrained marginal zero-inflated binomial regression model",
       location: "Brest",
     },
     {
+      id: 2,
       year: "12-2022",
       subject:
         "7èmes Rencontres Statistique - Sciences des données: Environnement et climat",
       location: "Vannes",
     },
     {
+      id: 3,
       year: "03-2022",
       subject: "Séminaire de groupe de travail de statistique au LMRS",
       location: "Université de Rouen",
     },
     {
+      id: 4,
       year: "01-2022",
       subject: "Exposé au groupe de travail de statistique au LMRS",
       location: "Université de Rouen",
     },
     {
+      id: 5,
       year: "05-2019",
       subject:
         "15ème Journée de Statistique de Rennes « Statistique et données »",
