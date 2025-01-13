@@ -7,7 +7,7 @@ import SiteHeader from "./SiteHeader";
 
 export const Publication = () => {
   return (
-    <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify my-16">
+    <div className="xl:px-56g lg:px-28g sm:px-7g md:px-16j text-justify my-16">
       <SiteHeader title={"Publications"} />
       <p className="my-6"></p>
       <div className="">

@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function SectionContact() {
   return (
     <>
-      <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify pb-20">
+      <div className="xl:px-56f lg:px-28f sm:px-7f md:px-1f6 text-justify pb-20">
         <SiteHeader title={"Current position"} />
         <p>
           Since September 2023, I am a lecturer and researcher in Applied

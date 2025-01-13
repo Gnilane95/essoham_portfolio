@@ -10,7 +10,7 @@ import { HiOfficeBuilding } from "react-icons/hi";
 
 export default function SectionContactInformation() {
   return (
-    <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify pb-20">
+    <div className="xl:px-56f lg:px-28f sm:px-7f md:px-16f text-justify pb-20">
       <SiteHeader title={"Contact information"} />
       <div className="mt-5">
         <div className="my-2">

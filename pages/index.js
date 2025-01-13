@@ -24,12 +24,14 @@ export default function Home() {
         }}
       />
       <Navbar />
-      <Hero />
-      {/* Home section */}
-      <div className="mt-20">
-        <SectionContact />
-        <SectionResearch />
-        <SectionContactInformation />
+      <div className="flex space-x-16">
+        <Hero />
+        {/* Home section */}
+        <div className="mt-10 pr-28">
+          <SectionContact />
+          <SectionResearch />
+          {/* <SectionContactInformation /> */}
+        </div>
       </div>
     </Layout>
   );

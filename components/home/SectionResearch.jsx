@@ -7,7 +7,7 @@ import { MdArrowForward } from "react-icons/md";
 export default function SectionResearch() {
   return (
     <>
-      <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify pb-10">
+      <div className="xl:px-56f lg:px-28f sm:px-7f md:px-1f6 text-justify pb-10">
         <SiteHeader title={"Domain of research"}/>
         <p className="sm:leading-relaxed lg:leading-relaxed md:leading-loose md:text-2xl lg:text-base">
           I am broadly interested in statistical inference in count data models.

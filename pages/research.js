@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
 import Navbar from "../components/header/Navbar";
+import Hero from "../components/header/Hero";
 import { NextSeo } from "next-seo";
 import Supervising from "../components/shared/Supervising";
 import SectionSearchInProgress from "../components/home/SectionSearchInProgress";
@@ -25,10 +26,17 @@ export default function research() {
         }}
       />
       <Navbar />
-      <SectionSearchInProgress/> 
-      <Preprints/>
-      <Publication/>
-      <Supervising/>
+      <div className="flex space-x-0">
+        {/* <div className="w-"> */}
+          <Hero />
+        {/* </div> */}
+        <div className="mt-10 pr-28">
+          <SectionSearchInProgress/> 
+          <Preprints/>
+          <Publication/>
+          <Supervising/>
+        </div>
+      </div>
       
     </Layout>
   );

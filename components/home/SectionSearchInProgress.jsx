@@ -7,7 +7,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 export default function SectionSearchInProgress() {
   return (
-    <div className="xl:px-56 lg:px-20 sm:px-7 md:px-16 text-justify my-10">
+    <div className="xl:px-56g lg:px-20g sm:px-7g md:px-16g text-justify my-10">
       <SiteHeader title={"Some work in progress"}/>
       <div className="mt-7">
         <ul className="divide-y divide-gray-200 dark:divide-gray-200">

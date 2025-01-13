@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
 import Navbar from "../components/header/Navbar";
+import Hero from "../components/header/Hero";
 import { NextSeo } from "next-seo";
 import SiteHeader from "../components/shared/SiteHeader";
 import Conference from "../components/shared/Conference";
@@ -23,13 +24,17 @@ export default function talks() {
         }}
       />
       <Navbar />
-      <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify my-16">
+      <div className="flex space-x-8">
+        <div className="w-1/3">
+          <Hero />
+        </div>
+        <div className="xl:px-56j lg:px-28j sm:px-7h md:px-16j text-justify my-14">
         <SiteHeader title={" My Talks"} />
         <div className="mt-20">
           <Conference/>
         </div>
+        </div>
       </div>
-      <div className="my-16"></div>
     </Layout>
   );
 }

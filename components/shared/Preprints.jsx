@@ -5,7 +5,7 @@ import SiteHeader from "../shared/SiteHeader";
 
 export default function Preprints() {
   return (
-    <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify my-16">
+    <div className="xl:px-56j lg:px-28h sm:px-j7 md:px-16h text-justify my-16">
     <SiteHeader title={"Preprints, submitted journal papers"}/>
     <div className="mt-9">
       <ul className="divide-y divide-gray-200 dark:divide-gray-200">

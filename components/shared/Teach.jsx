@@ -13,8 +13,8 @@ export default function Teach() {
         return (
           <li key={id} className="py-12">
             <article>
-              <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                <dl>
+              <div className="space-y-2 xl:gridh xl:grid-cols-4j xl:items-baseline xl:space-y-0">
+                <dl className="pb-5">
                   <dt className="sr-only">Published on</dt>
                   <dd className="text-2xl  font-black leading-6 text-gray-500 dark:text-gray-400">
                     <time dateTime={year}>{year}</time>

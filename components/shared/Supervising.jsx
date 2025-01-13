@@ -6,7 +6,7 @@ import SiteHeader from "./SiteHeader";
 
 export default function Supervising() {
   return (
-    <div className="xl:px-56 lg:px-28 sm:px-7 md:px-16 text-justify mt-10">
+    <div className="xl:px-56h lg:px-2h8 sm:px-7h md:px-16h text-justify mt-10">
       <section className="mt-20">
         <SiteHeader title={"Supervising Master students"}/>
 
