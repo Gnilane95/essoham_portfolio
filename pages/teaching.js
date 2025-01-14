@@ -24,12 +24,12 @@ export default function teaching() {
         }}
       />
       <Navbar />
-      <div className="flex space-x-16n">
-        <div className="w-1/3">
+      <div className="flex space-x-6">
+        <div className="w-1/3 pl-4">
           <Hero />
         </div>
-        <div className="mt-10 pr-28 pl-7">
-          <div className="xl:px-56l lg:px-2lm sm:px-7j md:px-16j text-justify my-16">
+        <div className="flex-1 mt-10 pr-28 pl-10">
+          <div className="xl:px-56l lg:px-2lm sm:px-7j md:px-16j text-justify ">
             <SiteHeader title={"My Teaching"} />
             <div className="">
               <Teach />

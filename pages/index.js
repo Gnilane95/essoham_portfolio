@@ -24,10 +24,12 @@ export default function Home() {
         }}
       />
       <Navbar />
-      <div className="flex space-x-16">
-        <Hero />
+      <div className="flex space-x-6">
+        <div className="w-1/3 pl-4">
+          <Hero />
+        </div>
         {/* Home section */}
-        <div className="mt-10 pr-28 text-gray-600">
+        <div className=" flex-1 mt-10 pr-28 pl-10 text-gray-600">
           <SectionContact />
           <SectionResearch />
         </div>
