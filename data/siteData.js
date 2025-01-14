@@ -424,7 +424,7 @@ const jeanFrancoisDupy = "https://dupuy.perso.math.cnrs.fr/";
 
 const personalData = {
   Tel: "(+33) 2 32 95 52 35",
-  Bureau: "A 202 (pôle scientifique)",
+  Bureau: "Office : A 211",
   Adresse:
     "Université Catholique de l’Ouest, Angers Institut de Mathématiques Appliquée 3 Place André Leroy, 49000 Angers",
   googleScholar:

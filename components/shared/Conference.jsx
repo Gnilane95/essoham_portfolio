@@ -13,32 +13,33 @@ export default function Conference() {
   const {title: reserchAbroadTitle, talks: abroadTalks } = researchAbroad;
   return (
     <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <h2 className="text-2xl font-bold leading-8 tracking-tight flex flex-wrap">
-          <FcConferenceCall className="mr-3" />
+      <div className="">
+        <h2 className="text-2xl text-gray-600 font-bold leading-8 tracking-tight flex flex-wrap">
+          {/* <FcConferenceCall className="mr-3" /> */}
           {conferenceTitle}
         </h2>
-        <div className="my-9">
-        <ul className="divide-y divide-gray-200 dark:divide-gray-200 ml-12">
+        <div className="mb-9">
+        <ul className="">
             {
                 conferenceTalk.map((talk) => {
                     const { id , year, subject, location } = talk;
                     return(
                         <li key={id} className="py-5">
                         <article>
-                          <div className="">
-                            <div className="space-y-5 xl:col-span-3">
+                          <div className=" text-gray-600">
+                            <div className="space-y-5 xl:col-span-3d">
                               <div className="space-y-6">
                                 <div>
                                   <h2 className=" font-bold tracking-tight flex flex-wrap">
-                                  < RiKakaoTalkFill className=""/>
-                                  <span className="badge badge-outline ml-3 p-3 font-black">{formatMonthYear(year)}</span>
+                                  {/* < RiKakaoTalkFill className=""/> */}
+                                  <span className="font-black">{formatMonthYear(year)}</span>
                                   <span className="ml-3"> {subject}</span>
                                  
                                   </h2>
                                   <div className="">
                                     {location && <div className="text-amber-700 font-bold mt-2 flex flex-wrap">
-                                    <IoLocationSharp/>{location}</div>}
+                                    {/* <IoLocationSharp/>{location} */}
+                                  </div>}
                                   </div>
                                 </div>
                               </div>
