@@ -18,7 +18,7 @@ export default function Preprints() {
                   <div className="space-y-5 xl:col-span-3">
                     <div className="space-y-6">
                       <div>
-                        <h2 className="text-2xl italic tracking-tight flex flex-wrap mb-2">
+                        <h2 className="text-base tracking-tight flex flex-wrap mb-2">
                           <span className=""> {title}</span>
                         </h2>
                         <div className="flex flex-wrap">

@@ -11,7 +11,7 @@ export default function Supervising() {
         <SiteHeader title={"Supervising Master students"}/>
 
         <div className="my-10">
-          <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 gridd grid-cols-1d gap-8d md:grid-cols-2d lg:grid-cols-3e">
             {
                 supervisings.map((student) =>(
                     <SupervisingCard student={student} key={student.id}/>

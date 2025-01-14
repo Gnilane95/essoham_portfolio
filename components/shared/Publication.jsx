@@ -20,7 +20,7 @@ export const Publication = () => {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div>
-                          <h2 className="text-2xl italic leading-8 tracking-tight">
+                          <h2 className="text-base leading-8 tracking-tight">
                               {title} 
                           </h2>
                           <div className="flex flex-wrap">{journal} , {publishAt}</div>
@@ -41,7 +41,7 @@ export const Publication = () => {
                       <div className="text-base font-medium leading-6">
                         <Link
                           href={to}
-                          className="btn rounded-full sm:btn-sm lg:btn-sm md:btn-md border-none bg-amber-700 px-20 hover:bg-slate-100 hover:text-gray-800"
+                          className="btn rounded-full sm:btn-sm lg:btn-sm md:btn-md border-none bg-amber-700h px-20 hover:bg-slate-100 hover:text-gray-800"
                           aria-label={`Read more: "${title}"`}
                         >
                           Read more <span className="ml-5">&rarr;</span>

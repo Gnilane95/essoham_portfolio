@@ -30,7 +30,7 @@ export default function research() {
         <div className="w-1/3 pl-4">
           <Hero />
         </div>
-        <div className="flex-1 mt-10 pr-28">
+        <div className="flex-1 mt-10 pl-10 pr-28">
           <SectionSearchInProgress/> 
           <Preprints/>
           <Publication/>

@@ -440,14 +440,14 @@ const curentResearch = [
     topic:
       "Statistical inference and machine learning in count data modeling on regression performance: An analysis of Mortality of Djallonke Lambs in Senegal",
     town: null,
-    contributors: ["Essohan Ali", "Aliou Diop"],
+    contributors: ["Essoham Ali", "Aliou Diop"],
   },
   {
     id: 2,
     topic:
       "Density power divergence estimator for Zero-inflated Bell regression model.",
     town: null,
-    contributors: ["Essohan Ali", "Mamadou Lamine Diop", "Aliou Diop"],
+    contributors: ["Essoham Ali", "Mamadou Lamine Diop", "Aliou Diop"],
   },
   {
     id: 3,
