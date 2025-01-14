@@ -8,7 +8,7 @@ import { personalData } from "../../data/siteData";
 
 export default function ProfileAli() {
   return (
-    <div className="flex text-2rxl gap-2 mt-5">
+    <div className="flex text-gray-600 gap-2 mt-5">
               <Link target="_blank" rel="noreferrer" href={personalData.googleScholar}>
         <SiGooglescholar />
       </Link>

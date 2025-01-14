@@ -28,7 +28,7 @@ export default function SectionResearch() {
           <div className="mt-10 flex">
             <Link
               href="/research"
-              className="btn btn-link text-amber-700 hover:bg-slate-50 hover:text-slate-900"
+              className="btn btn-link text-gray-600 hover:bg-slate-50 hover:text-slate-900"
             >
               see more about my recent research <MdArrowForward className="ml-3" />
             </Link>

@@ -13,7 +13,7 @@ export default function SectionContact() {
   return (
     <>
       <div className="xl:px-56f lg:px-28f sm:px-7f md:px-1f6 text-justify pb-20">
-        <SiteHeader title={"Current position"} />
+        <SiteHeader title={"Current position"} className />
         <p>
           Since September 2023, I am a lecturer and researcher in Applied
           Mathematics and Statistics at the Université Catholique de l'Ouest

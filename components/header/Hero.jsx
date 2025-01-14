@@ -12,34 +12,38 @@ import {uco, lmba, memberOfMAPP} from "../../data/siteData";
 
 export default function hero() {
   return (
-    <div className="bg-slate-800g h-[50%]h w-full lg:px-40k xl:px-4d8 sm:px-5d md:px-24d lg:pb-36d sm:pb-16d relativej text-whiteh">
+    <div className="sticky top-0 h-screen w-full lg:px-40k xl:px-4d8 sm:px-5d md:px-24d lg:pb-36d sm:pb-16d   lg:pl-16">
       <div className="lg:flex lg:items-center lg:flex-col pt-10">
         {/* img for lg */}
-        <div className=" lg:rounded-full sm:hiddenh">
+        <div className=" lg:rounded-fullh sm:hiddenh flex justify-center items-center">
           <img
-            src="../assets/essoham.jpg"
+            src="../assets/essoham3.jpg"
             alt="Essoham Ali"
-            className="lg:rounded-full lg:shadow-mdh lg:h-40 lg:w-40 lg:border lg:border-x-2 lg:border-y-2 lg:border-slate-500"
+            className="lg:rounded-full object-cover w-full h-full lg:shadow-mdh lg:h-40 lg:w-40 lg:border lg:border-x-2 lg:border-y-2 lg:border-slate-500"
           />
         </div>
+        {/* Informations */}
         <div className="flex items-center flex-col">
-          <h1 className="text-gray-700 text-xl font-bold pt-3">Essoham ALI</h1>
-          <div className="mt-10">
-            <h2 className="text-gray-700 text-xl font-bold text-center">Contact Information</h2>
+          <div className="text-center">
+            <h1 className="text-gray-600 text-xl font-bold pt-4">Essoham ALI</h1>
+            <p className="text-gray-600">Assistant Professor in Statistics <br /> at UCO Angers.</p>
+          </div>
+          <div className="mt-4">
+            <h2 className="text-gray-600 text-xl font-bold text-center">Contact Information</h2>
             <hr class="border-gray-100 border-t-2"></hr>
             <div className="pl-12">
               <div className="mt-5">
                 <div className="my-2">
-                  <p className="flex flex-wrap mr-2"> <MdLocationOn className="mr-3" /> 3 Place André Leroy, 49000 Angers </p>
+                  <p className="flex items-center flex-wrap mr-2 text-center"> <MdLocationOn className="mr-3" /><span className="text-gray-600">3 Place André Leroy, 49000 Angers</span> </p>
                 </div>
                 <p className="flex flex-wrap leading-4 my-4">
                   <HiOfficeBuilding className="mr-3" />
-                  <span className="font-boldg mr-2">{personalData.Bureau}</span>
+                  <span className="mr-2 text-gray-600">{personalData.Bureau}</span>
                   {/* <span>{personalData.Bureau}</span> */}
                 </p>
                 <p className="flex flex-wrap leading-4 my-4">
                   <IoMdMail className="mr-3" />
-                  <span className="font-boldj mr-2"> <Link href={`mailto:${personalData.email}`}>
+                  <span className="mr-2 text-gray-600"> <Link href={`mailto:${personalData.email}`}>
                     {personalData.email}
                   </Link></span>
                   {/* <Link href={`mailto:${personalData.email}`}>
@@ -53,7 +57,7 @@ export default function hero() {
                   href={cvlink}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-link text-amber-700 hover:bg-slate-50 hover:text-slate-900"
+                  className="btn btn-link text-gray-600 font-semibold hover:bg-slate-50 hover:text-slate-900"
                 >
                   Download my CV <MdArrowForward className="ml-3" />
                 </Link>

@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div>
       <footer>
-        <div className="p-6 bg-slate-800 text-white mt-20 flex flex-col items-center">
+        <div className="p-6 bg-gray-100 text-white mt-20 flex flex-col items-center">
          
            <ProfileAli/>
           

@@ -26,11 +26,11 @@ export default function research() {
         }}
       />
       <Navbar />
-      <div className="flex space-x-0">
-        {/* <div className="w-"> */}
+      <div className="flex space-x-6">
+        <div className="w-1/3 pl-4">
           <Hero />
-        {/* </div> */}
-        <div className="mt-10 pr-28">
+        </div>
+        <div className="flex-1 mt-10 pr-28">
           <SectionSearchInProgress/> 
           <Preprints/>
           <Publication/>

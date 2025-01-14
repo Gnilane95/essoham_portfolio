@@ -27,10 +27,9 @@ export default function Home() {
       <div className="flex space-x-16">
         <Hero />
         {/* Home section */}
-        <div className="mt-10 pr-28">
+        <div className="mt-10 pr-28 text-gray-600">
           <SectionContact />
           <SectionResearch />
-          {/* <SectionContactInformation /> */}
         </div>
       </div>
     </Layout>
