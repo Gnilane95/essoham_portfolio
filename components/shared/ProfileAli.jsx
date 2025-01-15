@@ -8,16 +8,19 @@ import { personalData } from "../../data/siteData";
 
 export default function ProfileAli() {
   return (
-    <div className="flex text-gray-600 gap-2 mt-5">
-              <Link target="_blank" rel="noreferrer" href={personalData.googleScholar}>
-        <SiGooglescholar />
-      </Link>
-      <Link target="_blank" rel="noreferrer" href={personalData.linkedin}>
-        <AiFillLinkedin />
-      </Link>
-      <Link target="_blank" rel="noreferrer" href={personalData.twitter}>
-        <AiFillTwitterSquare />
-      </Link>
+    <div className="mt-4">
+      <p className='pb-4 flex items-center'>
+        <Link target="_blank" rel="noreferrer" href={personalData.googleScholar} className='mr-3'>
+          <SiGooglescholar />
+        </Link>
+        <span className='text-gray-600'>Googlescholar</span>
+      </p>
+      <p className='flex items-center'>
+        <Link target="_blank" rel="noreferrer" href={personalData.linkedin} className='mr-3'>
+          <AiFillLinkedin />
+        </Link>
+        <span className='text-gray-600'>Linkedin</span>
+      </p>
     </div>
   )
 }

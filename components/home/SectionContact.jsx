@@ -12,30 +12,13 @@ import Link from "next/link";
 export default function SectionContact() {
   return (
     <>
-      <div className="xl:px-56f lg:px-28f sm:px-7f md:px-1f6 text-justify pb-20">
-        <SiteHeader title={"Current position"} className />
+      <div className="xl:px-56f lg:px-28f sm:px-7f md:px-1f6 text-justify pb-9">
+        <SiteHeader title={"About me"} className />
         <p>
-          Since September 2023, I am a lecturer and researcher in Applied
-          Mathematics and Statistics at the Université Catholique de l'Ouest
-          (UCO), Angers France. I give lectures in the Institute of Applied
-          Mathematics (IMA). My research work is carried out within the
-          probability and statistics team of the Laboratoire de Mathématiques de
-          Bretagne Atlantique (LMBA), where I am an associate member.
-        </p>
-        <p className="mt-5">
-          I obtained my PhD in July 2021 at the{" "}
-          <Link href={univgastonBerger} className="font-bold">
-            Université Gaston Berger de Saint-Louis
-          </Link>
-          , Senegal, under the supervision of{" "}
-          <Link href={aliouDiopPortfolio} className="font-bold">
-            Aliou Diop{" "}
-          </Link>
-          and{" "}
-          <Link href={jeanFrancoisDupy} className="font-bold">
-            Jean-François Dupuy
-          </Link>
-          .
+          I am a Lecture-Researcher in Statistics at the Institute of Applied Mathematics at the Catholic University of the West, Angers. My office is located in the Science building (2 Bd de Lavoisier, 49000 Angers).
+          Previously, I was a postdoctoral researcher at the University of Rouen and then a Temporary Lecturer and Researcher at the Department of Mathematics and Statistics at the University of Southern Brittany.
+          I did my PhD in Mathematics at the Mathematics Laboratory of the Gaston Berger University of Saint-Louis, under the supervision of Professors Aliou Diop from Gaston Berger University of Saint-Louis and <Link href={'https://dupuy.perso.math.cnrs.fr/'} className='underline font-semibold'>Jean-François Dupuy</Link> from INSA Rennes.
+          On July 21, 2021, I defended my PhD thesis titled Marginal Regression Models for Zero-Inflated Count Data.
         </p>
       </div>
     </>

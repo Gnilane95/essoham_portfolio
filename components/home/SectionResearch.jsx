@@ -8,33 +8,13 @@ export default function SectionResearch() {
   return (
     <>
       <div className="xl:px-56f lg:px-28f sm:px-7f md:px-1f6 text-justify pb-10">
-        <SiteHeader title={"Domain of research"}/>
-        <p className="sm:leading-relaxed lg:leading-relaxed md:leading-loose md:text-2xl lg:text-base">
-          I am broadly interested in statistical inference in count data models.
-          I am interested both in theoretical results using several estimation
-          methods, the comparison and application of these models on
-          overdispersed data using machine learning algorithms. Below is a
-          (non-exhaustive) list of more specific topics I have worked on:
+        <SiteHeader title={"Research interests"}/>
+        <p className="sm:leading-relaxed lg:leading-relaxed md:leading-loose md:text-2xl lg:text-base pb-2">
+         My main research focus lies at the intersection of theory and application of zero-inflated count models, missing data, and statistical learning. I am particularly interested in the challenges related to count data, especially when these data exhibit zero-inflation and multicollinearity phenomena, as well as handling missing data in these contexts.
         </p>
-        <div className="flex flex-wrap mt-10">
-          <ul className="list-disc w-99">
-            {
-              researchs.map((research) => (
-                <li key={research.id} className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50 flex flex-wrap">
-                <span className="font-bold">&#x2022; {research.topic}</span>
-                </li>
-              ))
-            }
-          <div className="mt-10 flex">
-            <Link
-              href="/research"
-              className="btn btn-link text-gray-600 hover:bg-slate-50 hover:text-slate-900"
-            >
-              see more about my recent research <MdArrowForward className="ml-3" />
-            </Link>
-          </div>
-          </ul>
-        </div>
+        <p className="sm:leading-relaxed lg:leading-relaxed md:leading-loose md:text-2xl lg:text-base">
+          More specifically, I work on developing and analyzing the properties of methodologies to solve estimation problems in count models with potential nonresponse, using tools from statistical learning. I am also interested in situations where the number of covariates is particularly large (high-dimensional scenarios), which further complicates the analysis of the data.
+        </p>
       </div>
     </>
   );

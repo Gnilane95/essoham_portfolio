@@ -26,42 +26,33 @@ export default function hero() {
         <div className="flex items-center flex-col">
           <div className="text-center">
             <h1 className="text-gray-600 text-xl font-bold pt-4">Essoham ALI</h1>
-            <p className="text-gray-600">Assistant Professor in Statistics <br /> at UCO Angers.</p>
+            <p className="text-gray-600">Lecturer and Researcher in Statistics at<br />Catholic University of the West, Angers.</p>
           </div>
-          <div className="mt-4">
-            <h2 className="text-gray-600 text-xl font-bold text-center">Contact Information</h2>
-            <hr class="border-gray-100 border-t-2"></hr>
-            <div className="pl-12">
-              <div className="mt-5">
-                <div className="my-2">
-                  <p className="flex items-center flex-wrap mr-2 text-center"> <MdLocationOn className="mr-3" /><span className="text-gray-600">3 Place André Leroy, 49000 Angers</span> </p>
-                </div>
-                <p className="flex flex-wrap leading-4 my-4">
-                  <HiOfficeBuilding className="mr-3" />
-                  <span className="mr-2 text-gray-600">{personalData.Bureau}</span>
-                  {/* <span>{personalData.Bureau}</span> */}
-                </p>
-                <p className="flex flex-wrap leading-4 my-4">
-                  <IoMdMail className="mr-3" />
-                  <span className="mr-2 text-gray-600"> <Link href={`mailto:${personalData.email}`}>
-                    {personalData.email}
-                  </Link></span>
-                  {/* <Link href={`mailto:${personalData.email}`}>
-                    {personalData.email}
-                  </Link> */}
-                </p>
-                <ProfileAli />
-              </div>
-              <div className="mt-2">
-                <Link
-                  href={cvlink}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn btn-link text-gray-600 font-semibold hover:bg-slate-50 hover:text-slate-900"
-                >
-                  Download my CV <MdArrowForward className="ml-3" />
-                </Link>
-              </div>
+          <div className="">
+            <div className="my-2">
+              <p className="flex items-center flex-wrap mr-2 text-center"> <MdLocationOn className="mr-3" /><span className="text-gray-600">Institute of Applied Mathematics</span> </p>
+            </div>
+            <p className="flex flex-wrap leading-4 my-4">
+              <HiOfficeBuilding className="mr-3" />
+              <span className="mr-2 text-gray-600">{personalData.Bureau}</span>
+              {/* <span>{personalData.Bureau}</span> */}
+            </p>
+            <p className="flex flex-wrap leading-4 my-4">
+              <IoMdMail className="mr-3" />
+              <span className="mr-2 text-gray-600"> <Link href={`mailto:${personalData.email}`}>
+                {personalData.email}
+              </Link></span>
+            </p>
+            <ProfileAli />
+            <div className="mt-2">
+              <Link
+                href={cvlink}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-link text-gray-600 font-semibold hover:bg-slate-50 hover:text-slate-900"
+              >
+                Download my CV <MdArrowForward className="ml-3" />
+              </Link>
             </div>
           </div>
         </div>
