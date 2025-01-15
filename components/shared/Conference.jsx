@@ -13,79 +13,49 @@ export default function Conference() {
   const {title: reserchAbroadTitle, talks: abroadTalks } = researchAbroad;
   return (
     <>
-      <div className="">
-        <h2 className="text-2xl text-gray-600 font-bold leading-8 tracking-tight flex flex-wrap">
-          {/* <FcConferenceCall className="mr-3" /> */}
-          {conferenceTitle}
-        </h2>
-        <div className="mb-9">
-        <ul className="">
-            {
-                conferenceTalk.map((talk) => {
-                    const { id , year, subject, location } = talk;
-                    return(
-                        <li key={id} className="py-5">
-                        <article>
-                          <div className=" text-gray-600">
-                            <div className="space-y-5 xl:col-span-3d">
-                              <div className="space-y-6">
-                                <div>
-                                  <h2 className=" font-bold tracking-tight flex flex-wrap">
-                                  {/* < RiKakaoTalkFill className=""/> */}
-                                  <span className="font-black">{formatMonthYear(year)}</span>
-                                  <span className="ml-3"> {subject}</span>
-                                 
-                                  </h2>
-                                  <div className="">
-                                    {location && <div className="text-amber-700 font-bold mt-2 flex flex-wrap">
-                                    {/* <IoLocationSharp/>{location} */}
-                                  </div>}
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </article>
-                      </li>
-                    )
-                }
-                    
-                )
+      <div className="mb-9">
+      <ul className="list-disc">
+          {
+            conferenceTalk.map((talk) => {
+              const { id , year, subject, location } = talk;
+              return(
+                  <li key={id} className="py-1">
+                  <article>
+                    <div className=" text-gray-600">
+                      <h2 className="tracking-tightd flex flex-wrap">
+                        <span className=" font-semibold">{formatMonthYear(year)} :</span>
+                        <span className="ml-3 mr-1"> {subject}, </span>
+                        <span className=""> {location}</span>
+                      </h2>
+                    </div>
+                  </article>
+                </li>
+              )
             }
-        </ul>
-        </div>
+                
+            )
+          }
+      </ul>
       </div>
 
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <h2 className="text-2xl font-bold leading-8 tracking-tight flex flex-wrap">
-          <FcConferenceCall className="mr-3" />
+        <h2 className="text-2xl font-black text-gray-600 pb-3">
           {seminaireTitle}
         </h2>
-        <div className="my-9">
-        <ul className="divide-y divide-gray-200 dark:divide-gray-200 ml-12">
+        <div className="py-7">
+          <ul className="list-disc ">
             {
                 seminaireTalk.map((talk) => {
                     const { id , year, subject, location } = talk;
                     return(
-                        <li key={id} className="py-5">
+                        <li key={id} className="py-1 text-gray-600">
                         <article>
                           <div className="">
-                            <div className="space-y-5 xl:col-span-3">
-                              <div className="space-y-6">
-                                <div>
-                                  <h2 className=" font-bold tracking-tight flex flex-wrap">
-                                  < RiKakaoTalkFill className=""/>
-                                  <span className="badge badge-outline ml-3 p-3 font-black">{ formatMonthYear(year)}</span>
-                                  <span className="ml-3"> {subject}</span>
-                                 
-                                  </h2>
-                                  <div className="">
-                                    {location && <div className="text-amber-700 font-bold mt-2 flex flex-wrap">
-                                    <IoLocationSharp/>{location}</div>}
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            <h2 className="tracking-tighth flex flex-wrap">
+                              <span className="font-semibold">{ formatMonthYear(year)} :</span>
+                              <span className="ml-3 mr-1"> {subject}, </span>
+                              <span className=""> {location}</span>
+                            </h2>
                           </div>
                         </article>
                       </li>
@@ -94,39 +64,31 @@ export default function Conference() {
                     
                 )
             }
-            </ul>
+          </ul>
         </div>
       </div>
 
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <h2 className="text-2xl font-bold leading-8 tracking-tight flex flex-wrap">
-          <GiArchiveResearch className="mr-3" />
+        <h2 className="text-2xl font-black text-gray-600 pb-3">
           {reserchAbroadTitle}
         </h2>
-        <div className="my-9">
-        <ul className="divide-y divide-gray-200 dark:divide-gray-200 ml-12">
+        <div className="py-7">
+        <ul className="list-disc">
             {
                 abroadTalks.map((talk) => {
                     const { id , topic, location, town, supervisor, from, to } = talk;
                     return(
-                        <li key={id} className="py-5">
+                        <li key={id} className="py-1 text-gray-600">
                         <article>
                           <div className="">
-                            <div className="space-y-5 xl:col-span-3">
-                              <div className="space-y-6">
-                                <div>
-                                  <h2 className=" font-bold tracking-tight flex flex-wrap">
-                                  < RiKakaoTalkFill className=""/>
-                                  <span className="badge badge-outline ml-3 p-3 font-black">{formatDate(from)} &nbsp; to &nbsp;{formatDate(to)} </span>
-                                  <span className="ml-3"> {topic}</span>
-                                 
-                                  </h2>
-                                  <div className="">
-                                    {location && <div className="text-amber-700 font-bold mt-2 flex flex-wrap">
-                                    <IoLocationSharp/>{location} - {town}</div>}
-                                  </div>
-                                  <div className="flex flex-wrap ml-2">Supervisor: <span className="ml-3 font-bold">{supervisor}</span></div>
-                                </div>
+                            <div>
+                              <h2 className="font-boldg tracking-tightd flex flex-wrap">
+                                <span className="font-semibold">{formatDate(from)} &nbsp; to &nbsp;{formatDate(to)} :</span>
+                                <span className="ml-3 mr-1"> {topic}</span>
+                                <span className=""> {location} - {town}</span>
+                              </h2>
+                              <div className="flex flex-wrap">
+                                Supervisor: <span className="ml-3">{supervisor}</span>
                               </div>
                             </div>
                           </div>

@@ -29,7 +29,7 @@ export default function talks() {
           <Hero />
         </div>
         <div className="flex-1 mt-10 pr-28 pl-10 xl:px-56j lg:px-28j sm:px-7h md:px-16j text-justify my-14">
-        <SiteHeader title={" My Talks"} />
+        <SiteHeader title={" International Conferences"} />
         <div className="mt-20h">
           <Conference/>
         </div>

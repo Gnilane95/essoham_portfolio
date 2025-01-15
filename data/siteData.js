@@ -292,26 +292,26 @@ const conferences = {
       id: 1,
       year: "09-2022",
       subject:
-        "De la Statistique à la Data Science pour l’économie et l’entreprise du futur.",
+        "De la Statistique à la Data Science pour l’économie et l’entreprise du futur",
       location: null,
     },
     {
       id: 2,
       year: "12-2020",
-      subject: "Rencontres des Jeunes Chercheurs Africains en France.",
+      subject: "Rencontres des Jeunes Chercheurs Africains en France",
       location: "France",
     },
     {
       id: 3,
       year: "12-2020",
-      subject: "EMA « Mathématiques pour les réseaux » ",
+      subject: "EMA « Mathématiques pour les réseaux »",
       location: "Madagascar",
     },
     {
       id: 4,
       year: "12-2019",
       subject:
-        '3rd edition of "Journées Mathématiques du Sénégal" UGB Saint-Louis.',
+        '3rd edition of "Journées Mathématiques du Sénégal" UGB Saint-Louis',
       location: "Sénégal",
     },
     {
@@ -324,7 +324,7 @@ const conferences = {
       id: 6,
       year: "09-2018",
       subject:
-        'CIMPA " Statistiques des durées de vie et statistiques spatiales " Togo',
+        'CIMPA " Statistiques des durées de vie et statistiques spatiales "',
       location: "Togo",
     },
   ],
