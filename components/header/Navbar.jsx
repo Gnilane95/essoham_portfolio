@@ -34,8 +34,8 @@ export default function Navbar() {
           <FullscreenNavbar />
           {/* Nav Items */}
           <div className="lg:flex lg:items-center lg:space-x-7 text-xl font-semibold sm:hidden pl-9">
-            <Link href="/research" className="border-b-4 border-transparent hover:border-gray-500 transition-all duration-300">
-              {t.menu.research}
+            <Link href="/publications" className="border-b-4 border-transparent hover:border-gray-500 transition-all duration-300">
+              {t.menu.publications} Publications
             </Link>
             <Link href="/teaching" className="border-b-4 border-transparent hover:border-gray-500 transition-all duration-300">
               {t.menu.teaching}

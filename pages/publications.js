@@ -4,22 +4,23 @@ import Navbar from "../components/header/Navbar";
 import Hero from "../components/header/Hero";
 import { NextSeo } from "next-seo";
 import Supervising from "../components/shared/Supervising";
-import SectionSearchInProgress from "../components/home/SectionSearchInProgress";
+import SubmittedOrToBesubmitted from "../components/home/SubmittedOrToBesubmitted";
+import PeerReviewedPublications from "../components/home/PeerReviewedPublications";
 import { Publication } from "../components/shared/Publication";
 import Preprints from "../components/shared/Preprints";
 
-export default function research() {
+export default function publications() {
   return (
     <Layout>
       <NextSeo
-        title="Essoham ALI | Research"
+        title="Essoham ALI | Publications"
         titleTemplate="Essoham ALI"
         defaultTitle="Essoham ALI"
-        description="Welcome to my portfolio, I'm Essoham ALI, Ph.D. in Applied Mathematics. In this page, you will see my researches, my research topics and my supervisings."
-        canonical="https://www.aliessoham-maths.fr/research"
+        description="Welcome to my portfolio, I'm Essoham ALI, Ph.D. in Applied Mathematics. In this page, you will see my publications."
+        canonical="https://www.aliessoham-maths.fr/publications"
         openGraph={{
-          url: "https://www.aliessoham-maths.fr/research",
-          title: "Essoham ALI | Research",
+          url: "https://www.aliessoham-maths.fr/publications",
+          title: "Essoham ALI | Publications",
           description:
             "Welcome to my portfolio, I'm Essoham ALI, Ph.D. in Applied Mathematics.",
           site_name: "Essoham ALI",
@@ -31,10 +32,11 @@ export default function research() {
           <Hero />
         </div>
         <div className="flex-1 mt-10 pl-10 pr-28">
-          <SectionSearchInProgress/> 
-          <Preprints/>
-          <Publication/>
-          <Supervising/>
+          <SubmittedOrToBesubmitted/>
+          <PeerReviewedPublications/>
+          {/* <Preprints/> */}
+          {/* <Publication/> */}
+          {/* <Supervising/> */}
         </div>
       </div>
       
