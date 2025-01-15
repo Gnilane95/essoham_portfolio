@@ -8,7 +8,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 export default function SubmittedOrToBesubmitted() {
   return (
-    <div className="xl:px-56g lg:px-20g sm:px-7g md:px-16g text-justify my-10">
+    <div className="xl:px-56g lg:px-20g sm:px-7g md:px-16g text-justify mb-10">
       <SiteHeader title={"Submitted or to be submitted"}/>
       <div className="mt-7">
         <ol className="list-decimal list-outside pl-4">
