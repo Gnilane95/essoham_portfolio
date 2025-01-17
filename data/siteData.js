@@ -284,6 +284,35 @@ const teachings = [
     ],
   },
 ];
+const phdStudents =[
+    {
+      id: 1,
+      description : "Agnondji GNON SIYA : 2022 - present. Joint supervision with Aliou Diop. Gaston Berger University.",
+
+    }
+  ];
+const mScStudents =[
+    {
+      id: 1,
+      description : "Delphin HOUENOU. Joint supervision with Aliou Diop. IMSP, University of Abomey-Calavi. Defended on  21/11/2024 Title : Maximum Likelihood Estimation in the Zero-Inflated Hermite Distribution (ZIHD) and Applications",
+    },
+    {
+      id: 2,
+      description : "Mbayang SYLL. Gaston Berger UNiversity. Defended on 21/11/2024. Title : Machine Learning Techniques for Count Data and Applications",
+    },
+    {
+      id: 3,
+      description : "Mael Quatrevaux, Université de Bretagne Sud. Co-encadrant: Aurélien RAGOT (entreprise: Micropole Nord Ouest) . Defended  on 24/08/2023. Title : Business Intelligence and Data Visualization: Process Analysis and Optimization Through Looker and Domo",
+    },
+    {
+      id: 4,
+      description : "Ibrahim Lawani,  Gaston Berger University. Defended  on 11/08/2023.Title: Comparison Between the Zero-Inflated Poisson Model and the Hurdle Model for Count Data Modeling",
+    },
+    {
+      id: 5,
+      description : "Agnondji Gnon Siya, Gaston Berger University  . Defended  on 11/08/2023. Title: Simulation Study for the Zero-Inflated Poisson-Gamma Regression Model and Applications",
+    },
+  ];
 
 const conferences = {
   title: "International Conferences",
@@ -502,6 +531,8 @@ module.exports = {
   curentResearch,
   topicOfSearch,
   submitJounalPaPer,
+  phdStudents,
+  mScStudents,
 
   curentPositionTextOne,
   curentPositionTextTwo,

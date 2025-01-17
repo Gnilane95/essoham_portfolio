@@ -7,6 +7,12 @@ let sitelinks = [
     priority: 1,
   },
   {
+    url: `${baseUrl}/publications`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 1,
+  },
+  {
     url: `${baseUrl}/research`,
     lastModified: new Date(),
     changeFrequency: "weekly",
@@ -25,7 +31,7 @@ let sitelinks = [
     priority: 1,
   },
   {
-    url: `${baseUrl}/cv_EA.pdf`,
+    url: `${baseUrl}/students`,
     lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 0.5,

@@ -46,6 +46,12 @@ function MobileNav({ open, setOpen }) {
     >
       <div className="flex flex-col justify-center sm:space-y-7 md:space-y-16 items-center mt-20 mb-10">
         <Link
+          href="/publications"
+          className="hover:text-amber-600 text-black sm:text-xl md:text-4xl font-semibold"
+        >
+          Publications
+        </Link>
+        <Link
           href="/research"
           className="hover:text-amber-600 text-black sm:text-xl md:text-4xl font-semibold"
         >
@@ -62,6 +68,12 @@ function MobileNav({ open, setOpen }) {
           className="hover:text-amber-600 text-black sm:text-xl md:text-4xl font-semibold"
         >
           Talks
+        </Link>
+        <Link
+          href="/students"
+          className="hover:text-amber-600 text-black sm:text-xl md:text-4xl font-semibold"
+        >
+          Students
         </Link>
         {/* <div className="btn bg-amber-700 ml-10 w-24 font-light cursor-pointer" onClick={changeLocale}>
           {currentLang === "en" ? "Francais" : "English"}

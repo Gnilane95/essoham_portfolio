@@ -5,6 +5,7 @@ const fr = {
     publications: "Publications",
     teaching: "Enseignements",
     talks: "Conférences",
+    students: "Etudiants",
   },
 };
 export default fr;

@@ -3,7 +3,6 @@ import FullscreenNavbar from "../FullscreenNavbar";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "../../hooks/translation.hook";
-import { cvlink } from "../../data/siteData";
 
 export default function Navbar() {
   const [currentLang, setCurrentLang] = useState("");
@@ -27,9 +26,7 @@ export default function Navbar() {
           <Link
             href="/"
             className="font-bold sm:text-xl md:text-xl lg:text-xl sm:mt-10 lg:mt-0">
-            {/* <span className="text-amber-700"> */}
             <span className="text-gray-600 border-b-4 border-transparent hover:border-gray-600"> Essoham ALI</span>
-            {/* </span> */}
           </Link>
           <FullscreenNavbar />
           {/* Nav Items */}
@@ -43,17 +40,9 @@ export default function Navbar() {
             <Link href="/talks" className="border-b-4 border-transparent hover:border-gray-500 transition-all duration-300">
               {t.menu.talks}
             </Link>
-            {/* <Link 
-              href={cvlink}
-              target="_blank"
-              rel="noreferrer" 
-              className="btn rounded-full px-4 bg-amber-700h hover:bg-slate-50 hover:text-slate-900"
-              >
-              Donwload CV
-            </Link> */}
-            {/* <div className="btn bg-amber-700 ml-10 w-24 font-light cursor-pointer" onClick={changeLocale}>
-              {currentLang === "en" ? "Francais" : "English"}
-            </div> */}
+            <Link href="/students" className="border-b-4 border-transparent hover:border-gray-500 transition-all duration-300">
+              {t.menu.students} Students
+            </Link>
           </div>
         </nav>
         <hr class="border-gray-100 border-t-2"></hr>
