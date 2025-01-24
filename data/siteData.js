@@ -288,29 +288,130 @@ const phdStudents =[
     {
       id: 1,
       description : "Agnondji GNON SIYA : 2022 - present. Joint supervision with Aliou Diop. Gaston Berger University.",
+      student : "Agnondji GNON SIYA :",
+      date: "2022 - present", 
+      supervisor : "Joint supervision with Aliou Diop.", 
+      title: null,
+      location: "Gaston Berger University.",
 
     }
   ];
 const mScStudents =[
     {
       id: 1,
-      description : "Delphin HOUENOU. Joint supervision with Aliou Diop. IMSP, University of Abomey-Calavi. Defended on  21/11/2024 Title : Maximum Likelihood Estimation in the Zero-Inflated Hermite Distribution (ZIHD) and Applications",
+      student : "Emma Pivaut:",
+      supervisor : null, 
+      date: "2024-present", 
+      title: "Title: Optimization of Energy Consumption for Social Landlords: Creation of an Interactive Dashboard with Dataiku and R Shiny.",
+      location: "UCO, Angers",
     },
     {
       id: 2,
-      description : "Mbayang SYLL. Gaston Berger UNiversity. Defended on 21/11/2024. Title : Machine Learning Techniques for Count Data and Applications",
+      student : "Delphin HOUENOU.", 
+      supervisor: "Joint supervision with Aliou Diop." ,
+      date : "Defended on  21/11/2024",
+      title : "Title: Maximum Likelihood Estimation in the Zero-Inflated Hermite Distribution (ZIHD) and Applications",
+      location : "IMSP, University of Abomey-Calavi.",
     },
     {
       id: 3,
-      description : "Mael Quatrevaux, Université de Bretagne Sud. Co-encadrant: Aurélien RAGOT (entreprise: Micropole Nord Ouest) . Defended  on 24/08/2023. Title : Business Intelligence and Data Visualization: Process Analysis and Optimization Through Looker and Domo",
+      student : "Mbayang SYLL.",
+      supervisor : null, 
+      date : "Defended on 21/11/2024.",
+      title : "Title: Machine Learning Techniques for Count Data and Applications",
+      location : "Gaston Berger UNiversity.",
     },
     {
       id: 4,
-      description : "Ibrahim Lawani,  Gaston Berger University. Defended  on 11/08/2023.Title: Comparison Between the Zero-Inflated Poisson Model and the Hurdle Model for Count Data Modeling",
+      student : "Mael Quatrevaux.",
+      supervisor : "Co-encadrant: Aurélien RAGOT (entreprise: Micropole Nord Ouest).",
+      date : "Defended on 24/08/2023.",
+      title : "Title : Business Intelligence and Data Visualization: Process Analysis and Optimization Through Looker and Domo.",
+      location : "Université de Bretagne Sud.",
     },
     {
       id: 5,
-      description : "Agnondji Gnon Siya, Gaston Berger University  . Defended  on 11/08/2023. Title: Simulation Study for the Zero-Inflated Poisson-Gamma Regression Model and Applications",
+      student : "Ibrahim Lawani.",
+      supervisor : null,
+      date : "Defended on 11/08/2023.",
+      title : "Title: Comparison Between the Zero-Inflated Poisson Model and the Hurdle Model for Count Data Modeling", 
+      location : "Gaston Berger University.",
+    },
+    {
+      id: 6,
+      student : "Agnondji Gnon Siya,",
+      supervisor : null,
+      date : "Defended on 11/08/2023.",
+      title : "Title: Simulation Study for the Zero-Inflated Poisson-Gamma Regression Model and Applications.", location : "Gaston Berger University.",
+    },
+  ];
+const submitteds =[
+    {
+      id: 1,
+      authors : "Essoham Ali & Adewale F.  Lukman (2025).",
+      article : "A New Ridge and Liu Estimator for Hermite Regression",
+      link_to_article : '#',
+    },
+    {
+      id: 2,
+      authors : "Agnondji GNON SIYA, Essoham ALI, Aliou DIOP (2025).",
+      article : "Marginal effects for zero-inflated semi-continuous data",
+      link_to_article : "#",
+    },
+    {
+      id: 3,
+      authors : "Essoham Ali & Adewale F.  Lukman (2024).",
+      article : "Ridge-Penalized Zero-Inflated Probit Bell model for multicollinearity in count data",
+      link_to_article : "https://sciencespo.hal.science/CHL/hal-04810240v1",
+    },
+    {
+      id: 4,
+      authors : "Solym Mawaki Manou-Abi, Essoham Ali, Yousri Slaoui, Julien Balicchi (2024).",
+      article : "Estimation of contact matrices with a new count data model and surveys",
+      link_to_article :"#",
+    },
+    {
+      id: 5,
+      authors : "Konan Jean Geoffroy KOUAKOU &  Essoham ALI (2023).",
+      article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model",
+      link_to_article : "#",
+    },
+  ];
+const peerReviewedPublications =[
+    {
+      id: 1,
+      authors_date : "Hubert Bassene, El Hadji Amadou Niang, Florence Fenollar, Dipankar Bachar, Souleymane Doucour´e, Essoham Ali, Caroline Michelle, Didier Raoult, Cheickh Sokhna and Oleg Mediannikov (2018).",
+      article : "16S metagenomic comparison of Plasmo-dium falciparum infected and non-infected Anopheles gambiae and Anopheles funestus Microbiota from Senegal",
+      journal : "American Journal of Tropical Medicine Hygiene 99(6):1489-1498.",
+      link_to_article : 'https://pubmed.ncbi.nlm.nih.gov/30350766/',
+    },
+    {
+      id: 2,
+      authors_date : "Ali E., Diop A., Dupuy J.-F.(2022).",
+      article : "A constrained marginal zero-inflated binomial regression model.",
+      journal : "Communications in Statistics - Theory and Methods, 51:18, 6396-6422.",
+      link_to_article : 'https://www.tandfonline.com/doi/abs/10.1080/03610926.2020.1861296',
+    },
+    {
+      id: 3,
+      authors_date : "Essoham Ali (2022).",
+      article : "A simulation-based study of ZIP regression with various zero-inflated submodels.",
+      journal : "Communications in Statistics - Simulation and Computation. Doi: 10.1080/03610918.2022.2025840.",
+      link_to_article : 'https://www.tandfonline.com/doi/abs/10.1080/03610918.2022.2025840',
+    },
+    {
+      id: 4,
+      authors_date : "Essoham Ali, Mamadou Lamine Diop, Aliou Diop.(2022).",
+      article : "Statistical inference in a Zero-Inflated Bell regression model.",
+      journal : "Mathematical Methods of Statistics Vol. 31, No. 3,91–104.",
+      link_to_article : 'https://link.springer.com/article/10.3103/S1066530722030012',
+    },
+    {
+      id: 5,
+      authors_date : "Essoham Ali & Kim-Hung Pho (06 Aug 2024).",
+      article : "A novel model for count data: zero-inflated Probit Bell model with applications.",
+      journal : "Communications in Statistics - Simulation and Computation, DOI: 10.1080/03610918.2024.2384574.",
+      link_to_article : 'https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2384574',
     },
   ];
 
@@ -533,6 +634,8 @@ module.exports = {
   submitJounalPaPer,
   phdStudents,
   mScStudents,
+  submitteds,
+  peerReviewedPublications,
 
   curentPositionTextOne,
   curentPositionTextTwo,

@@ -11,9 +11,15 @@ export default function MScStudent() {
       </div>
       <ul className="pt-1 space-y-1 list-disc">
         {mScStudents.map((MScStudent) => {
-          const {id, description} = MScStudent;
+          const {id, student, supervisor, date, title, location} = MScStudent;
           return (
-            <li key={id}>{description}</li>
+            <li key={id}>
+              <span>{student}</span>
+              <span className="ml-1">{supervisor}</span>
+              <span className="ml-1">{date}</span>
+              <span className="italic ml-1 font-semibold">{title}</span>
+              <span className="ml-1">{location}</span>
+            </li>
           );
         })}
       </ul>
