@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import { MdArrowForward } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
 import { HiOfficeBuilding } from "react-icons/hi";
