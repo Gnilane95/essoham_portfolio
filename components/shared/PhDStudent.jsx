@@ -9,7 +9,7 @@ export default function PhDStudent() {
         Ph.D. Students
         </h2>
       </div>
-      <ul className="pt-1 space-y-1 list-disc">
+      <ul className="pt-1 space-y-1 list-disc ml-4 md:ml-0">
         {phdStudents.map((PhDStudent) => {
           const {id, student, supervisor, date, title, location} = PhDStudent;
           return (

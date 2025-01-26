@@ -1,9 +1,5 @@
 import React from "react";
 import { conferences, seminaires, researchAbroad } from "../../data/siteData";
-import { FcConferenceCall } from "react-icons/fc";
-import { RiKakaoTalkFill } from "react-icons/ri";
-import { IoLocationSharp } from "react-icons/io5";
-import { GiArchiveResearch } from "react-icons/gi";
 import { formatDate, formatMonthYear } from "../../utils/formater";
 
 
@@ -13,7 +9,7 @@ export default function Conference() {
   const {title: reserchAbroadTitle, talks: abroadTalks } = researchAbroad;
   return (
     <>
-      <div className="mb-9">
+      <div className="mb-9 ml-4 md:ml-0">
       <ul className="list-disc">
           {
             conferenceTalk.map((talk) => {
@@ -22,9 +18,9 @@ export default function Conference() {
                   <li key={id} className="py-1">
                   <article>
                     <div className=" text-gray-600">
-                      <h2 className="tracking-tightd flex flex-wrap">
+                      <h2 className="md:flex md:flex-wrap">
                         <span className=" font-semibold">{formatMonthYear(year)} :</span>
-                        <span className="ml-3 mr-1"> {subject}, </span>
+                        <span className="md:ml-3 mr-1"> {subject}, </span>
                         <span className=""> {location}</span>
                       </h2>
                     </div>
@@ -42,7 +38,7 @@ export default function Conference() {
         <h2 className="text-2xl font-black text-gray-600 pb-3">
           {seminaireTitle}
         </h2>
-        <div className="py-7">
+        <div className="py-7 ml-4 md:ml-0">
           <ul className="list-disc ">
             {
                 seminaireTalk.map((talk) => {
@@ -51,7 +47,7 @@ export default function Conference() {
                         <li key={id} className="py-1 text-gray-600">
                         <article>
                           <div className="">
-                            <h2 className="tracking-tighth flex flex-wrap">
+                            <h2 className="md:flex md:flex-wrap">
                               <span className="font-semibold">{ formatMonthYear(year)} :</span>
                               <span className="ml-3 mr-1"> {subject}, </span>
                               <span className=""> {location}</span>
@@ -72,7 +68,7 @@ export default function Conference() {
         <h2 className="text-2xl font-black text-gray-600 pb-3">
           {reserchAbroadTitle}
         </h2>
-        <div className="py-7">
+        <div className="py-7 ml-4 md:ml-0">
         <ul className="list-disc">
             {
                 abroadTalks.map((talk) => {
@@ -82,13 +78,13 @@ export default function Conference() {
                         <article>
                           <div className="">
                             <div>
-                              <h2 className="font-boldg tracking-tightd flex flex-wrap">
+                              <h2 className="md:flex md:flex-wrap">
                                 <span className="font-semibold">{formatDate(from)} &nbsp; to &nbsp;{formatDate(to)} :</span>
                                 <span className="ml-3 mr-1"> {topic}</span>
                                 <span className=""> {location} - {town}</span>
                               </h2>
-                              <div className="flex flex-wrap">
-                                Supervisor: <span className="ml-3">{supervisor}</span>
+                              <div className="md:flex md:flex-wrap">
+                                Supervisor: <span className="md:ml-3">{supervisor}</span>
                               </div>
                             </div>
                           </div>

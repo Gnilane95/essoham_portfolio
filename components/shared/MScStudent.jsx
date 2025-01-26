@@ -9,7 +9,7 @@ export default function MScStudent() {
         M.Sc. Students
         </h2>
       </div>
-      <ul className="pt-1 space-y-1 list-disc">
+      <ul className="pt-1 space-y-1 list-disc ml-4 md:ml-0">
         {mScStudents.map((MScStudent) => {
           const {id, student, supervisor, date, title, location} = MScStudent;
           return (
