@@ -31,7 +31,7 @@ export default function publications() {
         <div className="md:w-1/3 md:pl-4">
           <Hero />
         </div>
-        <div className="md:flex-1 mt-10 md:pl-10 md:pr-28">
+        <div className="md:flex-1 mt-10 pr-5 pl-5 md:pl-10 md:pr-28">
           <SubmittedOrToBesubmitted/>
           <PeerReviewedPublications/>
         </div>

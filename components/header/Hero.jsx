@@ -47,8 +47,7 @@ export default function hero() {
                 href={cvlink}
                 target="_blank"
                 rel="noreferrer"
-                className="btn btn-link text-gray-600 font-semibold hover:bg-slate-50 hover:text-slate-900"
-              >
+                className="btn btn-link text-gray-600 font-semibold hover:bg-slate-50 hover:text-slate-900">
                 Download my CV <MdArrowForward className="ml-3" />
               </Link>
             </div>

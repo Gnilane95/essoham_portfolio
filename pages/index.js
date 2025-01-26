@@ -1,5 +1,5 @@
 import Layout from "../components/layout/Layout";
-import SectionContact from "../components/home/SectionContact";
+import SectionAboutme from "../components/home/SectionAboutme";
 import Navbar from "../components/header/Navbar";
 import Hero from "../components/header/Hero";
 import { NextSeo } from "next-seo";
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         {/* Home section */}
         <div className=" md:flex-1 md:mt-10 pr-5 pl-5 md:pr-28 md:pl-10 text-gray-600">
-          <SectionContact />
+          <SectionAboutme/>
           <SectionResearch />
         </div>
       </div>
