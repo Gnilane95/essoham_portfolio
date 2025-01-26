@@ -7,26 +7,24 @@ import { HiOfficeBuilding } from "react-icons/hi";
 import { cvlink, personalData } from "../../data/siteData";
 import { IoMdMail } from "react-icons/io";
 import ProfileAli from "../shared/ProfileAli";
-import SiteHeader from "../shared/SiteHeader";
-import {uco, lmba, memberOfMAPP} from "../../data/siteData";
-
 export default function hero() {
   return (
-    <div className="sticky top-0 h-screen w-full lg:px-40k xl:px-4d8 sm:px-5d md:px-24d lg:pb-36d sm:pb-16d   lg:pl-16">
-      <div className="lg:flex lg:items-center lg:flex-col pt-10">
-        {/* img for lg */}
-        <div className=" lg:rounded-fullh sm:hiddenh flex justify-center items-center">
+    <div className="sticky top-0 h-screen w-full md:pl-16">
+      <div className="md:flex md:items-center md:flex-col pt-10">
+        {/* iamge */}
+        <div className="flex justify-center items-center">
           <img
             src="../assets/essoham3.jpg"
-            alt="Essoham Ali"
-            className="lg:rounded-full object-cover w-full h-full lg:shadow-mdh lg:h-40 lg:w-40 lg:border lg:border-x-2 lg:border-y-2 lg:border-slate-500"
+            alt="Photo d'Essoham Ali"
+            className="rounded-full object-cover w-60 h-60 md:h-40 md:w-40 border border-x-2 border-y-2 border-slate-500"
           />
         </div>
         {/* Informations */}
         <div className="flex items-center flex-col">
           <div className="text-center">
             <h1 className="text-gray-600 text-xl font-bold pt-4">Essoham ALI</h1>
-            <p className="text-gray-600">Lecturer and Researcher in Statistics at<br />Catholic University of the West, Angers.</p>
+            <p className="text-gray-600 sm:hidden md:flex">Lecturer and Researcher in Statistics at<br />Catholic University of the West, Angers.</p>
+            <p className=" text-gray-600 md:hidden">Lecturer and Researcher in Statistics atCatholic University of the West, Angers.</p>
           </div>
           <div className="">
             <div className="my-2">

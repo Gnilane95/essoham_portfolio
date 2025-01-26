@@ -22,21 +22,18 @@ export default function publications() {
           url: "https://www.aliessoham-maths.fr/publications",
           title: "Essoham ALI | Publications",
           description:
-            "Welcome to my portfolio, I'm Essoham ALI, Ph.D. in Applied Mathematics.",
+            "Welcome to my portfolio, I'm Essoham ALI, Ph.D. in Applied Mathematics.In this page, you will see my publications.",
           site_name: "Essoham ALI",
         }}
       />
       <Navbar />
-      <div className="flex space-x-6">
-        <div className="w-1/3 pl-4">
+      <div className="md:flex md:space-x-6">
+        <div className="md:w-1/3 md:pl-4">
           <Hero />
         </div>
-        <div className="flex-1 mt-10 pl-10 pr-28">
+        <div className="md:flex-1 mt-10 md:pl-10 md:pr-28">
           <SubmittedOrToBesubmitted/>
           <PeerReviewedPublications/>
-          {/* <Preprints/> */}
-          {/* <Publication/> */}
-          {/* <Supervising/> */}
         </div>
       </div>
       

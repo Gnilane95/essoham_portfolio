@@ -287,9 +287,8 @@ const teachings = [
 const phdStudents =[
     {
       id: 1,
-      description : "Agnondji GNON SIYA : 2022 - present. Joint supervision with Aliou Diop. Gaston Berger University.",
       student : "Agnondji GNON SIYA :",
-      date: "2022 - present", 
+      date: "2022 - present.", 
       supervisor : "Joint supervision with Aliou Diop.", 
       title: null,
       location: "Gaston Berger University.",

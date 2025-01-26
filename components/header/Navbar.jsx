@@ -20,19 +20,19 @@ export default function Navbar() {
     router.push("/", "/", { locale });
   };
   return (
-    <div className="pl-9">
-        <nav className="bg-slate-800g text-gray-500 flex justify-evenlyj  items-center space-x-44 pb-10g lg:pb- lg:py-10 sm:px-10 md:px-20 lg:px-40 xl:px-48">
+    <div className="px-9">
+        <nav className="text-gray-500 flex items-center justify-between md:justify-normal md:gap-52 py-3 md:py-10 md:mx-6">
           {/* Link for home */}
           <Link
             href="/"
-            className="font-bold sm:text-xl md:text-xl lg:text-xl sm:mt-10 lg:mt-0">
+            className="font-bold text-xl sm:mt-10 md:mt-0 md:ml-44">
             <span className="text-gray-600 border-b-4 border-transparent hover:border-gray-600"> Essoham ALI</span>
           </Link>
           <FullscreenNavbar />
           {/* Nav Items */}
-          <div className="lg:flex lg:items-center lg:space-x-7 text-xl font-semibold sm:hidden pl-9">
+          <div className="md:flex md:items-center md:space-x-7 text-xl font-semibold sm:hidden ml-9h">
             <Link href="/publications" className="border-b-4 border-transparent hover:border-gray-500 transition-all duration-300">
-              {t.menu.publications} Publications
+              {t.menu.publications}Publications
             </Link>
             <Link href="/teaching" className="border-b-4 border-transparent hover:border-gray-500 transition-all duration-300">
               {t.menu.teaching}
@@ -41,7 +41,7 @@ export default function Navbar() {
               {t.menu.talks}
             </Link>
             <Link href="/students" className="border-b-4 border-transparent hover:border-gray-500 transition-all duration-300">
-              {t.menu.students} Students
+              {t.menu.students}Students
             </Link>
           </div>
         </nav>

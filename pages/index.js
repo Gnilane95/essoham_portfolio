@@ -4,7 +4,6 @@ import Navbar from "../components/header/Navbar";
 import Hero from "../components/header/Hero";
 import { NextSeo } from "next-seo";
 import SectionResearch from "../components/home/SectionResearch";
-import SectionContactInformation from "../components/home/SectionContactInformation";
 
 export default function Home() {
   return (
@@ -24,12 +23,12 @@ export default function Home() {
         }}
       />
       <Navbar />
-      <div className="flex space-x-6">
-        <div className="w-1/3 pl-4">
+      <div className="md:flex md:space-x-6">
+        <div className="md:w-1/3 md:pl-4">
           <Hero />
         </div>
         {/* Home section */}
-        <div className=" flex-1 mt-10 pr-28 pl-10 text-gray-600">
+        <div className=" md:flex-1 md:mt-10 pr-5 pl-5 md:pr-28 md:pl-10 text-gray-600">
           <SectionContact />
           <SectionResearch />
         </div>

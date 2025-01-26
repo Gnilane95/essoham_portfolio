@@ -24,13 +24,13 @@ export default function talks() {
         }}
       />
       <Navbar />
-      <div className="flex space-x-6">
-        <div className="w-1/3 pl-4">
+      <div className="md:flex md:space-x-6">
+        <div className="md:w-1/3 md:pl-4">
           <Hero />
         </div>
-        <div className="flex-1 mt-10 pr-28 pl-10 xl:px-56j lg:px-28j sm:px-7h md:px-16j text-justify my-14">
+        <div className="md:flex-1 mt-10 md:pr-28 md:pl-10">
         <SiteHeader title={" International Conferences"} />
-        <div className="mt-20h">
+        <div className="">
           <Conference/>
         </div>
         </div>
