@@ -12,7 +12,7 @@ export default function Teach() {
               <div className="">
                 <div className="">
                   {/* Year and university */}
-                  <div className="flex items-center space-x-1 text-lg">
+                  <div className="flex items-center space-x-1 md:text-lg">
                     <div className="">
                       <time dateTime={year}>{year}</time>
                     </div>
