@@ -24,7 +24,7 @@ export default function hero() {
           <div className="text-center">
             <h1 className="text-gray-600 text-xl font-bold pt-4">Essoham ALI</h1>
             <p className="text-gray-600 sm:hidden md:flex">Lecturer and Researcher in Statistics at<br />Catholic University of the West, Angers.</p>
-            <p className=" text-gray-600 md:hidden">Lecturer and Researcher in Statistics atCatholic University of the West, Angers.</p>
+            <p className=" text-gray-600 md:hidden">Lecturer and Researcher in Statistics at Catholic University of the West, Angers.</p>
           </div>
           <div className="">
             <div className="my-2">
