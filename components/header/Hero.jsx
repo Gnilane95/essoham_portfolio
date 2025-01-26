@@ -9,7 +9,7 @@ import { IoMdMail } from "react-icons/io";
 import ProfileAli from "../shared/ProfileAli";
 export default function hero() {
   return (
-    <div className="sticky top-0 h-screen w-full md:pl-16">
+    <div className="sticky top-0 mb-10 w-full md:pl-16">
       <div className="md:flex md:items-center md:flex-col pt-10">
         {/* iamge */}
         <div className="flex justify-center items-center">

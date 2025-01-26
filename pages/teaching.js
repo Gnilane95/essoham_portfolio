@@ -28,7 +28,7 @@ export default function teaching() {
         <div className="md:w-1/3 md:pl-4">
           <Hero />
         </div>
-        <div className="md:flex-1 mt-10 pr-5 pl-5 md:pr-28 md:pl-10">
+        <div className="md:flex-1 md:mt-10 pr-5 pl-5 md:pr-28 md:pl-10">
           <div className="">
             <SiteHeader title={"My Teaching"} />
             <div className="">
