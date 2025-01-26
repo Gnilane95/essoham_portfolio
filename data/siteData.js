@@ -132,7 +132,7 @@ const teachings = [
   {
     id: 1,
     year: "2023-2024",
-    university: "Catholic University of the West, Angers",
+    university: "Catholic University of the West",
     comments: null,
     courses: [
       {
