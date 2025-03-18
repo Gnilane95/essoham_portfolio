@@ -355,7 +355,7 @@ const submitteds =[
       id: 2,
       authors : "Agnondji GNON SIYA, Essoham ALI, Aliou DIOP (2025).",
       article : "Marginal effects for zero-inflated semi-continuous data",
-      link_to_article : "#",
+      link_to_article : "Marginal_effect__zero_inflated_semi_continuous_data (1).pdf",
     },
     {
       id: 3,
@@ -373,7 +373,7 @@ const submitteds =[
       id: 5,
       authors : "Konan Jean Geoffroy KOUAKOU &  Essoham ALI (2023).",
       article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model",
-      link_to_article : "#",
+      link_to_article : "https://hal.science/hal-04448707v1/document",
     },
   ];
 const peerReviewedPublications =[
