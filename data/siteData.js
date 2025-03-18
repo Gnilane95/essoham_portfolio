@@ -131,8 +131,8 @@ const supervisings = [
 const teachings = [
   {
     id: 1,
-    year: "2023-2024",
-    university: "Catholic University of the West",
+    year: "2023-2025",
+    university: "Université Catholique de l'Ouest d'Angers",
     comments: null,
     courses: [
       {
@@ -174,9 +174,9 @@ const teachings = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     year: "2022-2023",
-    university: "South Brittany University (UBS)",
+    university: "Université de Bretagne Sud (UBS)",
     comments: null,
     courses: [
       {
@@ -207,9 +207,9 @@ const teachings = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     year: "2021-2022",
-    university: "University of Rouen",
+    university: "Université de Rouen",
     comments: "The following teachings were carried out during my post-doc",
     courses: [
       {
@@ -225,9 +225,9 @@ const teachings = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     year: "2019-2020",
-    university: "Gaston Berger University (Senegal)",
+    university: "Université Gaston Berger (Senegal)",
     comments: null,
     courses: [
       {
@@ -255,7 +255,7 @@ const teachings = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     year: "2019-2020",
     university: "MIT University (Senegal)",
     comments: null,
@@ -288,7 +288,7 @@ const phdStudents =[
     {
       id: 1,
       student : "Agnondji GNON SIYA :",
-      date: "2022 - present.", 
+      date: "2023 - present.", 
       supervisor : "Joint supervision with Aliou Diop.", 
       title: null,
       location: "Gaston Berger University.",
@@ -371,7 +371,7 @@ const submitteds =[
     },
     {
       id: 5,
-      authors : "Konan Jean Geoffroy KOUAKOU &  Essoham ALI (2023).",
+      authors : "Konan Jean Geoffroy KOUAKOU &  Essoham ALI (2024).",
       article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model",
       link_to_article : "https://hal.science/hal-04448707v1/document",
     },
