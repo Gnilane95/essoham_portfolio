@@ -348,8 +348,8 @@ const submitteds =[
     {
       id: 1,
       authors : "Essoham Ali & Adewale F.  Lukman (2025).",
-      article : "A New Ridge and Liu Estimator for Hermite Regression",
-      link_to_article : '#',
+      article : "Contraction ridge estimator: Simulation and  Application to Economic Data",
+      link_to_article : 'Contraction_Ridge_Estimator__Simulation_and_Application (12).pdf',
     },
     {
       id: 2,
