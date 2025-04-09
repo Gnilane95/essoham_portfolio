@@ -18,7 +18,7 @@ export default function PeerReviewedPublications() {
                 <Link href={link_to_article}>
                   <span className="underline text-blue-500">{article}</span>
                 </Link>  
-                <span>{journal}</span>
+                <span className="pl-1">{journal}</span>
               </li>
             );
           })}
