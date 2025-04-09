@@ -608,7 +608,7 @@ const submitJounalPaPer = [
   },
 ];
 
-const cvlink = "cv_eali.pdf";
+const cvlink = "CV_EA.pdf";
 
 module.exports = {
   cvlink,
