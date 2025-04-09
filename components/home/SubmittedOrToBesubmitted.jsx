@@ -11,13 +11,14 @@ export default function SubmittedOrToBesubmitted() {
       <div className="mt-7">
         <ol className="list-decimal list-outside pl-4">
           {submitteds.map((submitted) => {
-            const{id,authors, article, link_to_article} = submitted;
+            const{id,authors, article, journal_name, link_to_article} = submitted;
             const shouldUnderline = link_to_article !== "#";
             return (
               <li key={id} className="">
                 <span>{authors}</span>
                 <Link href={link_to_article}>
                   <span className={shouldUnderline ? "underline text-blue-500" : ""}>{article}</span>
+                  <span className="pl-1">{journal_name}</span>
                 </Link>  
               </li>
             );

@@ -345,34 +345,47 @@ const mScStudents =[
     },
   ];
 const submitteds =[
+  
+  {
+    id: 1,
+    authors : "Essoham ALI, Adewale F.LUKMAN & Solym M. MANOU-ABI (2025).",
+    article : "Modeling contact patterns in the island of Mayotte using count data regression with multicollinearity and censoring.",
+    journal_name : "Submitted paper in  Journal of the Royal Statistical Society, Series A.",
+    link_to_article : "#",
+  },
     {
-      id: 1,
+      id: 2,
       authors : "Essoham Ali & Adewale F.  Lukman (2025).",
-      article : "Contraction ridge estimator: Simulation and  Application to Economic Data",
+      article : "Contraction ridge estimator: Simulation and  Application to Economic Data.",
+      journal_name : "Under Review to the Computational Economics",
       link_to_article : 'Contraction_Ridge_Estimator__Simulation_and_Application (12).pdf',
     },
     {
-      id: 2,
+      id: 3,
       authors : "Agnondji GNON SIYA, Essoham ALI, Aliou DIOP (2025).",
-      article : "Marginal effects for zero-inflated semi-continuous data",
+      article : "Marginal effects for zero-inflated semi-continuous data.",
+      journal_name : "Submitted paper in Journal of Statistical Computation and Simulation.",
       link_to_article : "Marginal_effect__zero_inflated_semi_continuous_data (1).pdf",
     },
     {
-      id: 3,
+      id: 4,
       authors : "Essoham Ali & Adewale F.  Lukman (2024).",
-      article : "Ridge-Penalized Zero-Inflated Probit Bell model for multicollinearity in count data",
+      article : "Ridge-Penalized Zero-Inflated Probit Bell model for multicollinearity in count data.",
+      journal_name : "Review and resubmit to the Journal of Applied Statistics.",
       link_to_article : "https://sciencespo.hal.science/CHL/hal-04810240v1",
     },
     {
-      id: 4,
+      id: 5,
       authors : "Solym Mawaki Manou-Abi, Essoham Ali, Yousri Slaoui, Julien Balicchi (2024).",
       article : "Estimation of contact matrices with a new count data model and surveys",
+      journal_name : "",
       link_to_article :"#",
     },
     {
-      id: 5,
+      id: 6,
       authors : "Konan Jean Geoffroy KOUAKOU &  Essoham ALI (2024).",
-      article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model",
+      article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model.",
+      journal_name : "Under Review to the scandinavian journal of statistics.",
       link_to_article : "https://hal.science/hal-04448707v1/document",
     },
   ];
