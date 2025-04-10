@@ -392,17 +392,17 @@ const submitteds =[
 const peerReviewedPublications =[
     {
       id: 1,
-      authors_date : "Hubert Bassene, El Hadji Amadou Niang, Florence Fenollar, Dipankar Bachar, Souleymane Doucour´e, Essoham Ali, Caroline Michelle, Didier Raoult, Cheickh Sokhna and Oleg Mediannikov (2018).",
-      article : "16S metagenomic comparison of Plasmo-dium falciparum infected and non-infected Anopheles gambiae and Anopheles funestus Microbiota from Senegal",
-      journal : "American Journal of Tropical Medicine Hygiene 99(6):1489-1498.",
-      link_to_article : 'https://pubmed.ncbi.nlm.nih.gov/30350766/',
+      authors_date : "Essoham Ali & Kim-Hung Pho (06 Aug 2024).",
+      article : "A novel model for count data: zero-inflated Probit Bell model with applications.",
+      journal : "Communications in Statistics - Simulation and Computation, DOI: 10.1080/03610918.2024.2384574.",
+      link_to_article : 'https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2384574',
     },
     {
       id: 2,
-      authors_date : "Ali E., Diop A., Dupuy J.-F.(2022).",
-      article : "A constrained marginal zero-inflated binomial regression model.",
-      journal : "Communications in Statistics - Theory and Methods, 51:18, 6396-6422.",
-      link_to_article : 'https://www.tandfonline.com/doi/abs/10.1080/03610926.2020.1861296',
+      authors_date : "Essoham Ali, Mamadou Lamine Diop, Aliou Diop.(2022).",
+      article : "Statistical inference in a Zero-Inflated Bell regression model.",
+      journal : "Mathematical Methods of Statistics Vol. 31, No. 3,91–104.",
+      link_to_article : 'https://link.springer.com/article/10.3103/S1066530722030012',
     },
     {
       id: 3,
@@ -413,17 +413,19 @@ const peerReviewedPublications =[
     },
     {
       id: 4,
-      authors_date : "Essoham Ali, Mamadou Lamine Diop, Aliou Diop.(2022).",
-      article : "Statistical inference in a Zero-Inflated Bell regression model.",
-      journal : "Mathematical Methods of Statistics Vol. 31, No. 3,91–104.",
-      link_to_article : 'https://link.springer.com/article/10.3103/S1066530722030012',
+      authors_date : "Ali E., Diop A., Dupuy J.-F.(2022).",
+      article : "A constrained marginal zero-inflated binomial regression model.",
+      journal : "Communications in Statistics - Theory and Methods, 51:18, 6396-6422.",
+      link_to_article : 'https://www.tandfonline.com/doi/abs/10.1080/03610926.2020.1861296',
     },
+  ];
+const interdisciplinaryArticles =[
     {
-      id: 5,
-      authors_date : "Essoham Ali & Kim-Hung Pho (06 Aug 2024).",
-      article : "A novel model for count data: zero-inflated Probit Bell model with applications.",
-      journal : "Communications in Statistics - Simulation and Computation, DOI: 10.1080/03610918.2024.2384574.",
-      link_to_article : 'https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2384574',
+      id: 1,
+      authors_date : "Hubert Bassene, El Hadji Amadou Niang, Florence Fenollar, Dipankar Bachar, Souleymane Doucour´e, Essoham Ali, Caroline Michelle, Didier Raoult, Cheickh Sokhna and Oleg Mediannikov (2018).",
+      article : "16S metagenomic comparison of Plasmo-dium falciparum infected and non-infected Anopheles gambiae and Anopheles funestus Microbiota from Senegal",
+      journal : "American Journal of Tropical Medicine Hygiene 99(6):1489-1498.",
+      link_to_article : 'https://pubmed.ncbi.nlm.nih.gov/30350766/',
     },
   ];
 
@@ -648,6 +650,7 @@ module.exports = {
   mScStudents,
   submitteds,
   peerReviewedPublications,
+  interdisciplinaryArticles,
 
   curentPositionTextOne,
   curentPositionTextTwo,

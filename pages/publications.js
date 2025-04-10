@@ -3,11 +3,9 @@ import Layout from "../components/layout/Layout";
 import Navbar from "../components/header/Navbar";
 import Hero from "../components/header/Hero";
 import { NextSeo } from "next-seo";
-import Supervising from "../components/shared/Supervising";
 import SubmittedOrToBesubmitted from "../components/home/SubmittedOrToBesubmitted";
 import PeerReviewedPublications from "../components/home/PeerReviewedPublications";
-import { Publication } from "../components/shared/Publication";
-import Preprints from "../components/shared/Preprints";
+import InterdisciplinaryArticles from "../components/home/InterdisciplinaryArticles";
 
 export default function publications() {
   return (
@@ -34,6 +32,7 @@ export default function publications() {
         <div className="md:flex-1 md:mt-10 pr-5 pl-5 md:pl-10 md:pr-28">
           <SubmittedOrToBesubmitted/>
           <PeerReviewedPublications/>
+          <InterdisciplinaryArticles/>
         </div>
       </div>
       
