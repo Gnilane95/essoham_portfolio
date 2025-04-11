@@ -17,7 +17,7 @@ export default function SubmittedOrToBesubmitted() {
               <li key={id} className="">
                 <span>{authors}</span>
                 <Link href={link_to_article}>
-                  <span className={shouldUnderline ? "underline text-blue-500 pl-1" : ""}>{article}</span>
+                  <span className={shouldUnderline ? "underline text-blue-500 pl-1 italic" : ""}>{article}</span>
                   <span className="pl-1">{journal_name}</span>
                 </Link>  
               </li>

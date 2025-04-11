@@ -348,14 +348,14 @@ const submitteds =[
   
     {
       id: 1,
-      authors : "Essoham ALI,Yousri Slaoui, Adewale F.LUKMAN. (2025).",
+      authors : "Essoham Ali,Yousri Slaoui, Adewale F.Lukman. (2025).",
       article : "Modeling contact patterns  using count data regression with multicollinearity and censoring.",
       journal_name : "In progress.",
       link_to_article : "#",
     },
     {
       id: 2,
-      authors : "Adewale F.LUKMAN, Essoham ALI. (2025).",
+      authors : "Adewale F.Lukman, Essoham Ali. (2025).",
       article : "Estimation and variable selection in multicollinear regression model using broken adaptive Liu-type estimator.",
       journal_name : "In progress.",
       link_to_article : "#",
@@ -369,7 +369,7 @@ const submitteds =[
     },
     {
       id: 4,
-      authors : "Agnondji GNON SIYA, Essoham ALI, Aliou DIOP (2025).",
+      authors : "Agnondji Gnon Siya, Essoham Ali, Aliou Diop (2025).",
       article : "Marginal effects for zero-inflated semi-continuous data.",
       journal_name : "Submitted paper in Journal of Statistical Computation and Simulation.",
       link_to_article : "Marginal_effect__zero_inflated_semi_continuous_data (1).pdf",
@@ -390,7 +390,7 @@ const submitteds =[
     },
     {
       id: 7,
-      authors : "Konan Jean Geoffroy KOUAKOU &  Essoham ALI (2024).",
+      authors : "Konan Jean Geoffroy Kouakou &  Essoham Ali (2024).",
       article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model.",
       journal_name : "Under Review to the scandinavian journal of statistics.",
       link_to_article : "https://hal.science/hal-04448707v1/document",
