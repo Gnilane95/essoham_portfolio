@@ -16,7 +16,7 @@ export default function PeerReviewedPublications() {
               <li key={id} className="">
                 <span>{authors_date}</span>
                 <Link href={link_to_article}>
-                  <span className="underline text-blue-500 pl-1">{article}</span>
+                  <span className="underline text-blue-500 pl-1 italic">{article}</span>
                 </Link>  
                 <span className="pl-1">{journal}</span>
               </li>
