@@ -345,55 +345,63 @@ const mScStudents =[
     },
   ];
 const submitteds =[
-  
     {
       id: 1,
-      authors : "Essoham Ali,Yousri Slaoui, Adewale F.Lukman. (2025).",
-      article : "Modeling contact patterns  using count data regression with multicollinearity and censoring.",
-      journal_name : "In progress.",
-      link_to_article : "#",
+      authors : "Essoham Ali, Adewale F.  Lukman & Solym M. Manou-Abi.",
+      article : "Regularized right-censored zero-inflated Poisson regression for correlated count data: Applications to social contact and environmental studies. Preprint (2025).",
+      journal_name : "Preprint (2025). Under review at Statistical Papers",
+      link_to_article : 'CRZIP_paper_review (6).pdf',
     },
     {
       id: 2,
-      authors : "Adewale F.Lukman, Essoham Ali. (2025).",
-      article : "Estimation and variable selection in multicollinear regression model using broken adaptive Liu-type estimator.",
-      journal_name : "In progress.",
-      link_to_article : "#",
-    },
-    {
-      id: 3,
       authors : "Essoham Ali & Adewale F.  Lukman (2025).",
       article : "Contraction ridge estimator: Simulation and  Application to Economic Data.",
       journal_name : "Under Review to the Computational Economics",
       link_to_article : 'Contraction_Ridge_Estimator__Simulation_and_Application (12).pdf',
     },
     {
-      id: 4,
+      id: 3,
       authors : "Agnondji Gnon Siya, Essoham Ali, Aliou Diop (2025).",
       article : "Marginal effects for zero-inflated semi-continuous data.",
       journal_name : "Submitted paper in Journal of Statistical Computation and Simulation.",
       link_to_article : "Marginal_effect__zero_inflated_semi_continuous_data (1).pdf",
     },
     {
-      id: 5,
+      id: 4,
       authors : "Essoham Ali & Adewale F.  Lukman (2024).",
       article : "Ridge-Penalized Zero-Inflated Probit Bell model for multicollinearity in count data.",
       journal_name : "Review and resubmit to the Journal of Applied Statistics.",
       link_to_article : "https://sciencespo.hal.science/CHL/hal-04810240v1",
     },
     {
-      id: 6,
+      id: 5,
       authors : "Solym Mawaki Manou-Abi, Essoham Ali, Yousri Slaoui, Julien Balicchi (2024).",
       article : "Estimation of contact matrices with a new count data model and surveys",
       journal_name : "",
       link_to_article :"#",
     },
     {
-      id: 7,
+      id: 6,
       authors : "Konan Jean Geoffroy Kouakou &  Essoham Ali (2024).",
       article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model.",
       journal_name : "Under Review to the scandinavian journal of statistics.",
       link_to_article : "https://hal.science/hal-04448707v1/document",
+    },
+  ];
+const articlesInprogress =[
+    {
+      id: 1,
+      authors : "Essoham Ali, Solym M. Manou-Abi,  Yousri Slaoui, Julien Balicchi. (2025).",
+      article : "Modeling contact patterns  using count data regression with multicollinearity and censoring.",
+      journal_name : "",
+      link_to_article : "#",
+    },
+    {
+      id: 2,
+      authors : "Adewale F.Lukman, Essoham Ali. (2025).",
+      article : "Estimation and variable selection in multicollinear regression model using broken adaptive Liu-type estimator.",
+      journal_name : "",
+      link_to_article : "#",
     },
   ];
 const peerReviewedPublications =[
@@ -655,6 +663,7 @@ module.exports = {
   submitJounalPaPer,
   phdStudents,
   mScStudents,
+  articlesInprogress,
   submitteds,
   peerReviewedPublications,
   interdisciplinaryArticles,

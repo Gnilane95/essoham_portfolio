@@ -63,41 +63,6 @@ export default function Conference() {
           </ul>
         </div>
       </div>
-
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <h2 className="text-2xl font-black text-gray-600 pb-3">
-          {reserchAbroadTitle}
-        </h2>
-        <div className="py-7 ml-4 md:ml-0">
-        <ul className="list-disc">
-            {
-                abroadTalks.map((talk) => {
-                    const { id , topic, location, town, supervisor, from, to } = talk;
-                    return(
-                        <li key={id} className="py-1 text-gray-600">
-                        <article>
-                          <div className="">
-                            <div>
-                              <h2 className="md:flex md:flex-wrap">
-                                <span className="font-semibold">{formatDate(from)} &nbsp; to &nbsp;{formatDate(to)} :</span>
-                                <span className="ml-3 mr-1"> {topic}</span>
-                                <span className=""> {location} - {town}</span>
-                              </h2>
-                              <div className="md:flex md:flex-wrap">
-                                Supervisor: <span className="md:ml-3">{supervisor}</span>
-                              </div>
-                            </div>
-                          </div>
-                        </article>
-                      </li>
-                    )
-                }
-                    
-                )
-            }
-        </ul>
-        </div>
-      </div>
     </>
   );
 }

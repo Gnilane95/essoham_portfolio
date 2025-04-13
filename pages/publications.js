@@ -6,6 +6,7 @@ import { NextSeo } from "next-seo";
 import SubmittedOrToBesubmitted from "../components/home/SubmittedOrToBesubmitted";
 import PeerReviewedPublications from "../components/home/PeerReviewedPublications";
 import InterdisciplinaryArticles from "../components/home/InterdisciplinaryArticles";
+import ArticlesInprogress from "../components/home/ArticlesInProgress";
 
 export default function publications() {
   return (
@@ -30,6 +31,7 @@ export default function publications() {
           <Hero />
         </div>
         <div className="md:flex-1 md:mt-10 pr-5 pl-5 md:pl-10 md:pr-28">
+          <ArticlesInprogress/>
           <SubmittedOrToBesubmitted/>
           <PeerReviewedPublications/>
           <InterdisciplinaryArticles/>

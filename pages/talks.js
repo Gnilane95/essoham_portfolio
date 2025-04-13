@@ -29,10 +29,10 @@ export default function talks() {
           <Hero />
         </div>
         <div className="md:flex-1 md:mt-10 pr-5 pl-5 md:pr-28 md:pl-10">
-        <SiteHeader title={" International Conferences"} />
-        <div className="">
-          <Conference/>
-        </div>
+          <SiteHeader title={" International Conferences"} />
+          <div className="">
+            <Conference/>
+          </div>
         </div>
       </div>
     </Layout>
