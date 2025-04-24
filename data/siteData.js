@@ -348,7 +348,7 @@ const submitteds =[
     {
       id: 1,
       authors : "Essoham Ali, Adewale F.  Lukman & Solym M. Manou-Abi.",
-      article : "Regularized right-censored zero-inflated Poisson regression for correlated count data: Applications to social contact and environmental studies. Preprint (2025).",
+      article : "Regularized right-censored zero-inflated Poisson regression for correlated count data: Applications to social contact and environmental studies.",
       journal_name : "Preprint (2025). Under review at Statistical Papers",
       link_to_article : 'CRZIP_paper_review (6).pdf',
     },
@@ -370,18 +370,11 @@ const submitteds =[
       id: 4,
       authors : "Essoham Ali & Adewale F.  Lukman (2024).",
       article : "Ridge-Penalized Zero-Inflated Probit Bell model for multicollinearity in count data.",
-      journal_name : "Review and resubmit to the Journal of Applied Statistics.",
+      journal_name : "Under review to the Journal of Applied Statistics.",
       link_to_article : "https://sciencespo.hal.science/CHL/hal-04810240v1",
     },
     {
       id: 5,
-      authors : "Solym Mawaki Manou-Abi, Essoham Ali, Yousri Slaoui, Julien Balicchi (2024).",
-      article : "Estimation of contact matrices with a new count data model and surveys",
-      journal_name : "",
-      link_to_article :"#",
-    },
-    {
-      id: 6,
       authors : "Konan Jean Geoffroy Kouakou &  Essoham Ali (2024).",
       article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model.",
       journal_name : "Under Review to the scandinavian journal of statistics.",

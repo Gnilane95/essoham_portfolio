@@ -7,7 +7,7 @@ import SiteHeader from "../shared/SiteHeader";
 export default function SubmittedOrToBesubmitted() {
   return (
     <div className="xl:px-56g lg:px-20g sm:px-7g md:px-16g text-justify mb-10">
-      <SiteHeader title={"Submitted or to be submitted"}/>
+      <SiteHeader title={"Submitted"}/>
       <div className="mt-7">
         <ol className="list-decimal list-outside pl-4">
           {submitteds.map((submitted) => {
