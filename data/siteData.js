@@ -347,34 +347,41 @@ const mScStudents =[
 const submitteds =[
     {
       id: 1,
+      authors : "Adewale F.Lukman, Essoham Ali, Emmanuel T. Adewuyi. (2025).",
+      article : "Estimation and variable selection in multicollinear regression model using broken adaptive Liu-type estimator.",
+      journal_name : "Submitted to Statistical Methods in Medical Research",
+      link_to_article : "Broken_Adaptive_Liu (7).pdf",
+    },
+    {
+      id: 2,
       authors : "Essoham Ali, Adewale F.  Lukman & Solym M. Manou-Abi.",
       article : "Regularized right-censored zero-inflated Poisson regression for correlated count data: Applications to social contact and environmental studies.",
       journal_name : "Preprint (2025). Under review at Statistical Papers",
       link_to_article : 'CRZIP_paper_review (6).pdf',
     },
     {
-      id: 2,
+      id: 3,
       authors : "Essoham Ali & Adewale F.  Lukman (2025).",
       article : "Contraction ridge estimator: Simulation and  Application to Economic Data.",
       journal_name : "Under Review to the Computational Economics",
       link_to_article : 'Contraction_Ridge_Estimator__Simulation_and_Application (12).pdf',
     },
     {
-      id: 3,
+      id: 4,
       authors : "Agnondji Gnon Siya, Essoham Ali, Aliou Diop (2025).",
       article : "Marginal effects for zero-inflated semi-continuous data.",
       journal_name : "Submitted paper in Journal of Statistical Computation and Simulation.",
       link_to_article : "Marginal_effect__zero_inflated_semi_continuous_data (1).pdf",
     },
     {
-      id: 4,
+      id: 5,
       authors : "Essoham Ali & Adewale F.  Lukman (2024).",
       article : "Ridge-Penalized Zero-Inflated Probit Bell model for multicollinearity in count data.",
       journal_name : "Under review to the Journal of Applied Statistics.",
       link_to_article : "https://sciencespo.hal.science/CHL/hal-04810240v1",
     },
     {
-      id: 5,
+      id: 6,
       authors : "Konan Jean Geoffroy Kouakou &  Essoham Ali (2024).",
       article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model.",
       journal_name : "Under Review to the scandinavian journal of statistics.",
@@ -388,13 +395,6 @@ const articlesInprogress =[
       article : "Modeling contact patterns  using count data regression with multicollinearity and censoring.",
       journal_name : "",
       link_to_article : "#",
-    },
-    {
-      id: 2,
-      authors : "Adewale F.Lukman, Essoham Ali, Emmanuel T. Adewuyi. (2025).",
-      article : "Estimation and variable selection in multicollinear regression model using broken adaptive Liu-type estimator.",
-      journal_name : "",
-      link_to_article : "Broken_Adaptive_Liu (7).pdf",
     },
   ];
 const peerReviewedPublications =[
