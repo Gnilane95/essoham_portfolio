@@ -12,11 +12,12 @@ export default function ArticlesInprogress() {
         <ol className="list-decimal list-outside pl-4">
           {articlesInprogress.map((articleInprogress) => {
             const{id,authors, article, journal_name, link_to_article} = articleInprogress;
+            const shouldUnderline = link_to_article !== "#";
             return (
               <li key={id} className="">
                 <span>{authors}</span>
                 <Link href={link_to_article}>
-                  <span className="underline text-blue-500 pl-1 italic">{article}</span>
+                  <span className={shouldUnderline ? "underline text-blue-500 pl-1 italic" : "pl-1 italic"}>{article}</span>
                 </Link>  
                 <span className="pl-1">{journal_name}</span>
               </li>
