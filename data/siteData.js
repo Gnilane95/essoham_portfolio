@@ -391,10 +391,10 @@ const articlesInprogress =[
     },
     {
       id: 2,
-      authors : "Adewale F.Lukman, Essoham Ali. (2025).",
+      authors : "Adewale F.Lukman, Essoham Ali, Emmanuel T. Adewuyi. (2025).",
       article : "Estimation and variable selection in multicollinear regression model using broken adaptive Liu-type estimator.",
       journal_name : "",
-      link_to_article : "#",
+      link_to_article : "Broken_Adaptive_Liu (7).pdf",
     },
   ];
 const peerReviewedPublications =[
