@@ -386,14 +386,14 @@ const articlesInprogress =[
 const peerReviewedPublications =[
     {
       id: 1,
-      authors : "Essoham Ali & Adewale F.  Lukman (2025).",
+      authors_date : "Essoham Ali & Adewale F.  Lukman (2025).",
       article : "Contraction ridge estimator: Simulation and  Application to Economic Data.",
       journal : "Computational Economics",
       link_to_article : 'https://link.springer.com/article/10.1007/s10614-025-11182-x',
     },
     {
       id: 2,
-      authors : "Essoham Ali & Adewale F.  Lukman (2024).",
+      authors_date : "Essoham Ali & Adewale F.  Lukman (2024).",
       article : "Ridge-Penalized Zero-Inflated Probit Bell model for multicollinearity in count data.",
       journal_name : "Journal of Applied Statistics.",
       link_to_article : "https://www.tandfonline.com/doi/abs/10.1080/02664763.2025.2530551",
@@ -435,7 +435,7 @@ const interdisciplinaryArticles =[
       journal : "American Journal of Tropical Medicine Hygiene 99(6):1489-1498.",
       link_to_article : 'https://pubmed.ncbi.nlm.nih.gov/30350766/',
     },
-    
+
   ];
 
 const conferences = {
