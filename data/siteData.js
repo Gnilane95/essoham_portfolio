@@ -435,6 +435,7 @@ const interdisciplinaryArticles =[
       journal : "American Journal of Tropical Medicine Hygiene 99(6):1489-1498.",
       link_to_article : 'https://pubmed.ncbi.nlm.nih.gov/30350766/',
     },
+    
   ];
 
 const conferences = {
