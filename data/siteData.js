@@ -366,13 +366,13 @@ const submitteds =[
       journal_name : "Submitted paper in Journal of Statistical Computation and Simulation.",
       link_to_article : "Marginal_effect__zero_inflated_semi_continuous_data (1).pdf",
     },
-    {
-      id: 4,
-      authors : "Konan Jean Geoffroy Kouakou &  Essoham Ali (2024).",
-      article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model.",
-      journal_name : "Under Review to the scandinavian journal of statistics.",
-      link_to_article : "https://hal.science/hal-04448707v1/document",
-    },
+    // {
+    //   id: 4,
+    //   authors : "Konan Jean Geoffroy Kouakou &  Essoham Ali (2024).",
+    //   article : "Inverse probability weighting for missing covariates in Zero-Inflated modified Borel-Tanner model.",
+    //   journal_name : "Under Review to the scandinavian journal of statistics.",
+    //   link_to_article : "https://hal.science/hal-04448707v1/document",
+    // },
   ];
 const articlesInprogress =[
     {
@@ -388,14 +388,14 @@ const peerReviewedPublications =[
       id: 1,
       authors_date : "Essoham Ali & Adewale F.  Lukman (2025).",
       article : "Contraction ridge estimator: Simulation and  Application to Economic Data.",
-      journal : "Computational Economics",
+      journal : "Computational Economics.",
       link_to_article : 'https://link.springer.com/article/10.1007/s10614-025-11182-x',
     },
     {
       id: 2,
-      authors_date : "Essoham Ali & Adewale F.  Lukman (2024).",
+      authors_date : "Essoham Ali & Adewale F.  Lukman (2025).",
       article : "Ridge-Penalized Zero-Inflated Probit Bell model for multicollinearity in count data.",
-      journal_name : "Journal of Applied Statistics.",
+      journal : "Journal of Applied Statistics.",
       link_to_article : "https://www.tandfonline.com/doi/abs/10.1080/02664763.2025.2530551",
     },
     {
